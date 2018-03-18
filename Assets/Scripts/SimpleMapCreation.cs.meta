@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 92c9c7a76f5f381478ede4449bb3a50c
+timeCreated: 1521350080
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - GrassTile: {fileID: 1409272775269232, guid: 6c05b2e116f569b46b32d5ef4951e868,
+      type: 2}
+  - GroundTile: {fileID: 1181329008927780, guid: 0c8630a19ede72244b57a47040f6f160,
+      type: 2}
+  - RockTile: {fileID: 1775010436392484, guid: 4a93970a2e6f0334b8cd22e9b09c6f19, type: 2}
+  - WaterTile: {fileID: 1924174223567896, guid: 1edcc3ab10c5d044ca48b4b838aba54f,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
