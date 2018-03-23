@@ -14,11 +14,14 @@ public class TacticMove : MonoBehaviour
 
 	[SerializeField]
 	private int move = 5;
-	private float jumpHeight = 1;
+	[SerializeField]
+	private float jumpHeight = 1f;
+	[SerializeField]
+	private float moveSpeed = 1f;
 	private bool bIsMoving = false;
 
 	Vector3 velocity = new Vector3 ();
-	Vector3 target = new Vector3 ();
+	Vector3 targetDirection = new Vector3 ();
 
 	float halfHeight;
 
@@ -36,7 +39,7 @@ public class TacticMove : MonoBehaviour
 	protected void Init ()
 	{
 		gameboard = GameObject.FindGameObjectsWithTag ("Tile");
-		halfHeight = GetComponent<Collider> ().bounds.extents.y;
+		halfHeight = GetComponentInChildren<Collider> ().bounds.extents.y;
 	}
 
 	public int GetMove ()
@@ -113,9 +116,69 @@ public class TacticMove : MonoBehaviour
 		foreach (Tile tile in selectableTiles) {
 			tile.Reset ();
 		}
+
+		selectableTiles.Clear ();
 	}
 
+	public void MoveToTile (Tile targetTile)
+	{
+		path.Clear ();
 
+		//Safe guard
+		if (!targetTile.bTargetTile)
+			targetTile.bTargetTile = true;
+
+		Tile nextTile = targetTile;
+		while (nextTile != null) {
+			path.Push (nextTile);
+			nextTile = nextTile.parent;
+		}
+
+	}
+
+	public void MoveOneStep ()
+	{
+		if (path.Count > 0) {
+			//move
+			Tile t = path.Peek ();
+			Vector3 target = t.transform.position;
+
+			//Unit position after move
+			target.y += halfHeight + t.GetComponentInChildren<Collider> ().bounds.extents.y;
+
+			if (Vector3.Distance (transform.position, target) >= 0.05) {
+				//keep going
+				CalculateDest (target);
+				SetHorizontalVelocity ();
+				transform.forward = targetDirection;
+				transform.position += velocity * Time.deltaTime;
+			} else {
+				//Minion reached tile
+				transform.position = target;
+				path.Pop ();
+			}
+		} else {
+			//not move, out of path
+			this.SetIsMoving (false);
+			ResetTiles ();
+		}
+	}
+
+	private void CalculateDest (Vector3 target)
+	{
+		this.targetDirection = target - transform.position;
+		targetDirection.Normalize ();
+	}
+
+	private void SetVerticalVelocity ()
+	{
+		
+	}
+
+	private void SetHorizontalVelocity ()
+	{
+		velocity = targetDirection * moveSpeed;
+	}
 }
 
 

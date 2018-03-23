@@ -25,19 +25,27 @@ public class MinionMove : TacticMove
 			}
 
 		} else if (bMinionSelected) {
+			Tile t = null;
 			//if selected, do moving stuff
 			if (CheckMouseClick ("Minion")) {
 				this.ResetTiles ();
 				bMinionSelected = false;
 			} else if (CheckMouseClick ("Tile")) {
 				RaycastHit hit = GetMouseHit ();
-				Tile t = hit.collider.GetComponentInParent<Tile> ();
+				t = hit.collider.GetComponentInParent<Tile> ();
 				if (t.bSelectable) {
 					t.bTargetTile = true;
-					this.SetIsMoving (false);
+					this.SetIsMoving (true);
+					//Start move to target tile
+					this.MoveToTile (t);
 				}
 			}
+
+			if (this.GetIsMoving ()) {
+				this.MoveOneStep ();
+			}
 		}
+			
 	}
 
 	private bool CheckMouseClick (string hitTag)
