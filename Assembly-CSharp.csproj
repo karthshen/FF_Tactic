@@ -51,8 +51,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\MinionMove.cs" />
      <Compile Include="Assets\Scripts\SimpleMapCreation.cs" />
      <Compile Include="Assets\Scripts\TacticCamera.cs" />
+     <Compile Include="Assets\Scripts\TacticMove.cs" />
+     <Compile Include="Assets\Scripts\Tile.cs" />
      <None Include="Assets\Materials\read me.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>S:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

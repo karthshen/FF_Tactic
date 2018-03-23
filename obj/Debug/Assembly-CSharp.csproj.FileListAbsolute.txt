@@ -65,6 +65,7 @@ S:\Unity\Assignments\FF_Tactic\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.x
 S:\Unity\Assignments\FF_Tactic\obj\Debug\Assembly-CSharp.dll
 S:\Unity\Assignments\FF_Tactic\obj\Debug\Assembly-CSharp.pdb
 S:\Unity\Assignments\FF_Tactic\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Karth-Red\Documents\Codes\FF_Tactic\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Karth-Red\Documents\Codes\FF_Tactic\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Users\Karth-Red\Documents\Codes\FF_Tactic\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\Karth-Red\Documents\Codes\FF_Tactic\Temp\bin\Debug\nunit.framework.dll
@@ -129,6 +130,5 @@ C:\Users\Karth-Red\Documents\Codes\FF_Tactic\Temp\bin\Debug\UnityEditor.SpatialT
 C:\Users\Karth-Red\Documents\Codes\FF_Tactic\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
 C:\Users\Karth-Red\Documents\Codes\FF_Tactic\Temp\bin\Debug\UnityEditor.VR.xml
 C:\Users\Karth-Red\Documents\Codes\FF_Tactic\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
-C:\Users\Karth-Red\Documents\Codes\FF_Tactic\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Karth-Red\Documents\Codes\FF_Tactic\obj\Debug\Assembly-CSharp.dll
 C:\Users\Karth-Red\Documents\Codes\FF_Tactic\obj\Debug\Assembly-CSharp.pdb
