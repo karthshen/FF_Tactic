@@ -15,11 +15,23 @@ public class TacticMove : MonoBehaviour
 	[SerializeField]
 	private int move = 5;
 	private float jumpHeight = 1;
+	private bool bIsMoving = false;
 
 	Vector3 velocity = new Vector3 ();
 	Vector3 target = new Vector3 ();
 
 	float halfHeight;
+
+	//Getters and Setters
+	public bool GetIsMoving ()
+	{
+		return this.bIsMoving;
+	}
+
+	public void SetIsMoving (bool bIsMoving)
+	{
+		this.bIsMoving = bIsMoving;
+	}
 
 	protected void Init ()
 	{
@@ -48,7 +60,7 @@ public class TacticMove : MonoBehaviour
 		RaycastHit hit;
 		Tile targetTile = null;
 
-		if (Physics.Raycast (target.transform.position, -Vector3.up, out hit, 2f)) {
+		if (Physics.Raycast (target.transform.position, -Vector3.up, out hit, 1f)) {
 			targetTile = hit.collider.GetComponentInParent<Tile> ();
 		}
 
@@ -75,6 +87,7 @@ public class TacticMove : MonoBehaviour
 		//BFS
 		queue.Enqueue (currentTile);
 		currentTile.visited = true;
+		currentTile.SetHasMinion (true);
 
 		while (queue.Count > 0) {
 			Tile t = queue.Dequeue ();
@@ -92,6 +105,13 @@ public class TacticMove : MonoBehaviour
 					}
 				}
 			}
+		}
+	}
+
+	public void ResetTiles ()
+	{
+		foreach (Tile tile in selectableTiles) {
+			tile.Reset ();
 		}
 	}
 

@@ -5,14 +5,18 @@ using UnityEngine;
 public class Tile : MonoBehaviour
 {
 
+	#if DEBUG_GAME
+	[SerializeField] 
+	private float DEBUG_test_height = 1f;
+	#endif
 	[SerializeField]
-	protected bool bWalkable = true;
+	public bool bWalkable = true;
 	//Default all tiles are walkable
 	[SerializeField]
-	protected bool bHasMinion = false;
+	public bool bHasMinion = false;
 	//if tile has a minion
 	[SerializeField]
-	protected bool bTargetTile = false;
+	public bool bTargetTile = false;
 	//if the tile is target tile selecting
 	[SerializeField]
 	public bool bSelectable = false;
@@ -20,12 +24,17 @@ public class Tile : MonoBehaviour
 
 	//default color of this tile
 	private Color defaultColor;
+	//Blinking Color
+	private Color lerpColor;
+	private float lerpTime = 1.2f;
 
 	//Graph theroy stuff
 	public List<Tile> adj_List = new List<Tile> ();
 	public bool visited = false;
 	public Tile parent = null;
 	public int distance = 0;
+
+
 
 	// Use this for initialization
 	void Start ()
@@ -37,14 +46,16 @@ public class Tile : MonoBehaviour
 	void Update ()
 	{
 		if (bHasMinion)
-			GetComponentInChildren<Renderer> ().material.color = Color.blue;
+			lerpColor = Color.red;
 		else if (bTargetTile)
-			GetComponentInChildren<Renderer> ().material.color = Color.green;
+			lerpColor = Color.Lerp (defaultColor, Color.red, Mathf.PingPong (Time.time, lerpTime));
 		else if (bSelectable)
-			GetComponentInChildren<Renderer> ().material.color = Color.red;
+			lerpColor = Color.Lerp (defaultColor, Color.black, Mathf.PingPong (Time.time, lerpTime));
 		else {
-			GetComponentInChildren<Renderer> ().material.color = defaultColor;
+			lerpColor = defaultColor;
 		}
+
+		GetComponentInChildren<Renderer> ().material.color = lerpColor;
 	}
 
 	public void Reset ()
@@ -73,7 +84,7 @@ public class Tile : MonoBehaviour
 	private void CheckTile (Vector3 direction, float jumpHeight)
 	{
 
-		Vector3 halfExtent = new Vector3 (0.25f, jumpHeight / 4, 0.25f);
+		Vector3 halfExtent = new Vector3 (0.25f, (jumpHeight) / 2f, 0.25f);
 
 		Collider[] colliders = Physics.OverlapBox (this.transform.position + direction, halfExtent);
 
@@ -84,5 +95,10 @@ public class Tile : MonoBehaviour
 				adj_List.Add (tile);
 			}
 		}
+	}
+
+	public void SetHasMinion (bool bHasMinion)
+	{
+		this.bHasMinion = bHasMinion;
 	}
 }
