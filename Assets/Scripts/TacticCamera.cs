@@ -43,7 +43,7 @@ public class TacticCamera : MonoBehaviour {
 	public void RotateLeft(){
 		if (rotateCount > -rotationMax) {
 			rotateCount--;
-			this.transform.Rotate (Vector3.up, 10, Space.World);
+			this.transform.Rotate (Vector3.up, -10, Space.World);
 		}
 	}
 
@@ -51,7 +51,7 @@ public class TacticCamera : MonoBehaviour {
 	public void RotateRight(){
 		if (rotateCount < rotationMax) {
 			rotateCount++;
-			this.transform.Rotate (Vector3.up, -10, Space.World);
+			this.transform.Rotate (Vector3.up, 10, Space.World);
 		}
 	}
 }
