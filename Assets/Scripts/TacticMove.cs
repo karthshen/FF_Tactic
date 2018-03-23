@@ -12,6 +12,7 @@ public class TacticMove : MonoBehaviour
 	private Tile currentTile;
 	//current tile this minion is on
 
+	[SerializeField]
 	private int move = 5;
 	private float jumpHeight = 1;
 

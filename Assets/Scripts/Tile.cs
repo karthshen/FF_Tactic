@@ -37,11 +37,11 @@ public class Tile : MonoBehaviour
 	void Update ()
 	{
 		if (bHasMinion)
-			GetComponentInChildren<Renderer> ().material.color = Color.red;
+			GetComponentInChildren<Renderer> ().material.color = Color.blue;
 		else if (bTargetTile)
 			GetComponentInChildren<Renderer> ().material.color = Color.green;
 		else if (bSelectable)
-			GetComponentInChildren<Renderer> ().material.color = Color.grey;
+			GetComponentInChildren<Renderer> ().material.color = Color.red;
 		else {
 			GetComponentInChildren<Renderer> ().material.color = defaultColor;
 		}
