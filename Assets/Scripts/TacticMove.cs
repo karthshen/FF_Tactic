@@ -25,6 +25,12 @@ public class TacticMove : MonoBehaviour
 
 	float halfHeight;
 
+	protected void Init ()
+	{
+		gameboard = GameObject.FindGameObjectsWithTag ("Tile");
+		halfHeight = GetComponentInChildren<Collider> ().bounds.extents.y;
+	}
+
 	//Getters and Setters
 	public bool GetIsMoving ()
 	{
@@ -36,11 +42,6 @@ public class TacticMove : MonoBehaviour
 		this.bIsMoving = bIsMoving;
 	}
 
-	protected void Init ()
-	{
-		gameboard = GameObject.FindGameObjectsWithTag ("Tile");
-		halfHeight = GetComponentInChildren<Collider> ().bounds.extents.y;
-	}
 
 	public int GetMove ()
 	{
@@ -120,6 +121,11 @@ public class TacticMove : MonoBehaviour
 		selectableTiles.Clear ();
 	}
 
+	public void ResetRotation ()
+	{
+		this.transform.rotation = Quaternion.Euler (new Vector3 (0, 0, 0));
+	}
+
 	public void MoveToTile (Tile targetTile)
 	{
 		path.Clear ();
@@ -161,6 +167,7 @@ public class TacticMove : MonoBehaviour
 			//not move, out of path
 			this.SetIsMoving (false);
 			ResetTiles ();
+			ResetRotation ();
 		}
 	}
 

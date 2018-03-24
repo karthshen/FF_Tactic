@@ -5,22 +5,28 @@ using UnityEngine;
 public class MinionMove : TacticMove
 {
 	private bool bMinionSelected = false;
+	private int InstanceID;
 	// Use this for initialization
 	void Start ()
 	{
 		Init ();
+		InstanceID = this.GetInstanceID ();
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
 
+		//Don't question this
 		if (!bMinionSelected) {
 			if (CheckMouseClick ("Minion")) {
-				this.FindSelectableTiles ();
-				bMinionSelected = true;
+				RaycastHit hit = GetMouseHit ();
+				int insID = hit.collider.gameObject.GetComponentInParent<MinionMove> ().GetInstanceID ();
+				if (insID == this.InstanceID) {
+					this.FindSelectableTiles ();
+					bMinionSelected = true;
+				}
 			} else {
-			
 				//If moving, disable the selectable Tile UI
 			}
 
@@ -30,7 +36,7 @@ public class MinionMove : TacticMove
 			if (CheckMouseClick ("Minion")) {
 				this.ResetTiles ();
 				bMinionSelected = false;
-			} else if (CheckMouseClick ("Tile")) {
+			} else if (CheckMouseClick ("Tile") && !GetIsMoving ()) {
 				RaycastHit hit = GetMouseHit ();
 				t = hit.collider.GetComponentInParent<Tile> ();
 				if (t.bSelectable) {
@@ -43,7 +49,9 @@ public class MinionMove : TacticMove
 
 			if (this.GetIsMoving ()) {
 				this.MoveOneStep ();
-			}
+				if (!this.GetIsMoving ())
+					this.bMinionSelected = false;
+			} 
 		}
 			
 	}
