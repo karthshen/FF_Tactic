@@ -54,13 +54,21 @@ public class Tile : MonoBehaviour
 		else {
 			lerpColor = defaultColor;
 		}
-
+			
 		GetComponentInChildren<Renderer> ().material.color = lerpColor;
 	}
 
 	public void Reset ()
 	{
 		bHasMinion = false;
+		Vector3 halfExtent = new Vector3 (0.25f, 0.25f, 0.25f);
+		Collider[] colliders = Physics.OverlapBox (this.transform.position + Vector3.up, halfExtent);
+		foreach (Collider obj in colliders) {
+			GameActor actor = obj.GetComponentInParent<GameActor> ();
+			if (actor) {
+				bHasMinion = true;
+			}
+		}
 		bTargetTile = false;
 		bSelectable = false;
 
@@ -84,17 +92,31 @@ public class Tile : MonoBehaviour
 	private void CheckTile (Vector3 direction, float jumpHeight)
 	{
 
-		Vector3 halfExtent = new Vector3 (0.25f, (jumpHeight) / 2f, 0.25f);
+		Vector3 halfExtent = new Vector3 (0.25f, (jumpHeight), 0.25f);
 
 		Collider[] colliders = Physics.OverlapBox (this.transform.position + direction, halfExtent);
 
 		foreach (Collider obj in colliders) {
 			Tile tile = obj.GetComponentInParent<Tile> ();
-			if (tile && tile.bWalkable) {
+			if (tile && tile.bWalkable && !tile.bHasMinion && tile.CheckSurfaceTile ()) {
 				//@TODO if tile is occupied by enemy, make it not walkable
 				adj_List.Add (tile);
 			}
 		}
+	}
+
+	private bool CheckSurfaceTile ()
+	{
+		Vector3 halfExtent = new Vector3 (0.1f, 0.1f, 0.1f);
+
+		Collider[] colliders = Physics.OverlapBox (this.transform.position + Vector3.up, halfExtent);
+		//Collider collider = Physics.CheckBox (this.transform.position + Vector3.up, halfExtent);
+		foreach (Collider obj in colliders) {
+			Tile tile = obj.GetComponentInParent<Tile> ();
+			if (tile)
+				return false;
+		}
+		return true;
 	}
 
 	public void SetHasMinion (bool bHasMinion)

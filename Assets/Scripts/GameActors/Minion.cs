@@ -17,16 +17,20 @@ public class Minion : TacticActor
 	{
 		this.FindSelectableTiles ();
 		bMinionSelected = true;
-		Tile t = null;
 
-		while (bMinionSelected) {
-			/*
+		this.currentState = State.Move;
+	}
+
+	public void Update ()
+	{
+		Tile t = null;
+		if (bMinionSelected && currentState == State.Move) {
+
 			if (CheckMouseClick ("Minion")) {
 				this.ResetTiles ();
 				bMinionSelected = false;
 
-			} else */
-			if (CheckMouseClick ("Tile") && GetIsMoving () == false) {
+			} else if (CheckMouseClick ("Tile") && GetIsMoving () == false) {
 				RaycastHit hit = GetMouseHit ();
 				t = hit.collider.GetComponentInParent<Tile> ();
 
@@ -43,11 +47,16 @@ public class Minion : TacticActor
 					this.bMinionSelected = false;
 			}
 		}
+
+		if (bMinionSelected && currentState == State.Attack) {
+			
+		}
 	}
 
 	public override void Attack ()
 	{
-		
+		//Combat logic
+		this.currentState = State.Attack;
 	}
 
 	private bool CheckMouseClick (string hitTag)

@@ -38,6 +38,8 @@ public class TacticActor : GameActor
 	{
 		gameboard = GameObject.FindGameObjectsWithTag ("Tile");
 		halfHeight = GetComponentInChildren<Collider> ().bounds.extents.y;
+		this.currentState = State.Wait;
+		this.ResetTiles ();
 	}
 
 	public void ComputeAdjList ()
