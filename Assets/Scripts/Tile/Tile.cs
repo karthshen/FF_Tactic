@@ -35,6 +35,7 @@ public class Tile : MonoBehaviour
 	public int distance = 0;
 
 
+	private bool ActorMoving = false;
 
 	// Use this for initialization
 	void Start ()
@@ -45,9 +46,10 @@ public class Tile : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		if (bHasMinion)
+		/*if (bHasMinion)
 			lerpColor = Color.red;
-		else if (bTargetTile)
+		else*/
+		if (bTargetTile)
 			lerpColor = Color.Lerp (defaultColor, Color.red, Mathf.PingPong (Time.time, lerpTime));
 		else if (bSelectable)
 			lerpColor = Color.Lerp (defaultColor, Color.black, Mathf.PingPong (Time.time, lerpTime));
