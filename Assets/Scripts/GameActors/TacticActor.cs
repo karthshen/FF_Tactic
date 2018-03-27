@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TacticMove : MonoBehaviour
+public class TacticActor : GameActor
 {
 	private List<Tile> selectableTiles = new List<Tile> ();
 	private GameObject[] gameboard;
@@ -25,50 +25,19 @@ public class TacticMove : MonoBehaviour
 
 	float halfHeight;
 
+	public override void Move ()
+	{
+	}
+
+	public override void Attack ()
+	{
+		
+	}
+
 	protected void Init ()
 	{
 		gameboard = GameObject.FindGameObjectsWithTag ("Tile");
 		halfHeight = GetComponentInChildren<Collider> ().bounds.extents.y;
-	}
-
-	//Getters and Setters
-	public bool GetIsMoving ()
-	{
-		return this.bIsMoving;
-	}
-
-	public void SetIsMoving (bool bIsMoving)
-	{
-		this.bIsMoving = bIsMoving;
-	}
-
-
-	public int GetMove ()
-	{
-		return move; 
-	}
-
-	public float GetJumpHeight ()
-	{
-		return jumpHeight;
-	}
-
-	public void GetCurrentTile ()
-	{
-		currentTile = GetTargetTile (this.gameObject);
-	}
-
-	public Tile GetTargetTile (GameObject target)
-	{
-
-		RaycastHit hit;
-		Tile targetTile = null;
-
-		if (Physics.Raycast (target.transform.position, -Vector3.up, out hit, 1f)) {
-			targetTile = hit.collider.GetComponentInParent<Tile> ();
-		}
-
-		return targetTile;
 	}
 
 	public void ComputeAdjList ()
@@ -185,6 +154,47 @@ public class TacticMove : MonoBehaviour
 	private void SetHorizontalVelocity ()
 	{
 		velocity = targetDirection * moveSpeed;
+	}
+
+
+	//Getters and Setters
+	public bool GetIsMoving ()
+	{
+		return this.bIsMoving;
+	}
+
+	public void SetIsMoving (bool bIsMoving)
+	{
+		this.bIsMoving = bIsMoving;
+	}
+
+
+	public int GetMove ()
+	{
+		return move; 
+	}
+
+	public float GetJumpHeight ()
+	{
+		return jumpHeight;
+	}
+
+	public void GetCurrentTile ()
+	{
+		currentTile = GetTargetTile (this.gameObject);
+	}
+
+	public Tile GetTargetTile (GameObject target)
+	{
+
+		RaycastHit hit;
+		Tile targetTile = null;
+
+		if (Physics.Raycast (target.transform.position, -Vector3.up, out hit, 1f)) {
+			targetTile = hit.collider.GetComponentInParent<Tile> ();
+		}
+
+		return targetTile;
 	}
 }
 

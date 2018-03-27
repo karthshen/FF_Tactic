@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TacticCamera : MonoBehaviour {
+public class TacticCamera : MonoBehaviour
+{
 
 	[SerializeField] private float cameraSpeed = 1.0f;
 	[SerializeField] private float rotation = 10;
@@ -10,7 +11,8 @@ public class TacticCamera : MonoBehaviour {
 
 	private int rotateCount = 0;
 
-	private void Update(){
+	private void Update ()
+	{
 		if (Input.GetButton ("CameraUp"))
 			this.CameraUp ();
 		if (Input.GetButton ("CameraDown"))
@@ -23,35 +25,41 @@ public class TacticCamera : MonoBehaviour {
 		//CameraMovement (x, z);
 	}
 
-	private void CameraRight(){
+	private void CameraRight ()
+	{
 		this.transform.Translate (cameraSpeed * Time.deltaTime, 0, cameraSpeed * Time.deltaTime);
 	}
 
-	private void CameraLeft(){
+	private void CameraLeft ()
+	{
 		this.transform.Translate (-cameraSpeed * Time.deltaTime, 0, -cameraSpeed * Time.deltaTime);
 	}
 
-	private void CameraUp(){
+	private void CameraUp ()
+	{
 		this.transform.Translate (-cameraSpeed * Time.deltaTime, 0, cameraSpeed * Time.deltaTime);
 	}
 
-	private void CameraDown(){
+	private void CameraDown ()
+	{
 		this.transform.Translate (cameraSpeed * Time.deltaTime, 0, -cameraSpeed * Time.deltaTime);
 	}
 
 	//Rotate Left
-	public void RotateLeft(){
+	public void RotateLeft ()
+	{
 		if (rotateCount > -rotationMax) {
 			rotateCount--;
-			this.transform.Rotate (Vector3.up, -10, Space.World);
+			this.transform.Rotate (Vector3.up, -rotation, Space.World);
 		}
 	}
 
 	//Rotate Right
-	public void RotateRight(){
+	public void RotateRight ()
+	{
 		if (rotateCount < rotationMax) {
 			rotateCount++;
-			this.transform.Rotate (Vector3.up, 10, Space.World);
+			this.transform.Rotate (Vector3.up, rotation, Space.World);
 		}
 	}
 }
