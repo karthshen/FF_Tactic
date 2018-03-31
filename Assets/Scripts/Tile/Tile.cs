@@ -35,8 +35,6 @@ public class Tile : MonoBehaviour
 	public int distance = 0;
 
 
-	private bool ActorMoving = false;
-
 	// Use this for initialization
 	void Start ()
 	{

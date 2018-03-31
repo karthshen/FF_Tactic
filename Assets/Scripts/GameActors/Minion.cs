@@ -5,12 +5,10 @@ using UnityEngine;
 public class Minion : TacticActor
 {
 	private bool bMinionSelected = false;
-	private int InstanceID;
 	// Use this for initialization
 	void Start ()
 	{
 		Init ();
-		InstanceID = this.GetInstanceID ();
 	}
 
 	public override void Move ()
