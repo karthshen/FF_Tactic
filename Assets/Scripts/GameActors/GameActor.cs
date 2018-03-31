@@ -8,7 +8,7 @@ public abstract class GameActor : MonoBehaviour
 	{
 		Move,
 		Attack,
-		Wait
+		Idle
 	}
 
 	protected State currentState;

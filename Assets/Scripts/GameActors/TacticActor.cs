@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TacticActor : GameActor
+public abstract class TacticActor : GameActor
 {
 	private List<Tile> selectableTiles = new List<Tile> ();
 	private GameObject[] gameboard;
@@ -20,6 +20,8 @@ public class TacticActor : GameActor
 	private float moveSpeed = 1f;
 	private bool bIsMoving = false;
 
+	private Animation animation;
+
 	Vector3 velocity = new Vector3 ();
 	Vector3 targetDirection = new Vector3 ();
 
@@ -34,12 +36,27 @@ public class TacticActor : GameActor
 		
 	}
 
+	public void TacticActorUpdate ()
+	{
+		if (animation != null) {
+
+			if (this.currentState == State.Idle) {
+				animation.Play ("Idle");
+			} else if (this.currentState == State.Move) {
+				animation.Play ("RunFront");
+			}
+		}
+	}
+
 	protected void Init ()
 	{
 		gameboard = GameObject.FindGameObjectsWithTag ("Tile");
-		halfHeight = GetComponentInChildren<Collider> ().bounds.extents.y;
-		this.currentState = State.Wait;
+		halfHeight = GetComponentInChildren<MeshRenderer> ().bounds.extents.y;
+		this.currentState = State.Idle;
 		this.ResetTiles ();
+
+		this.animation = GetComponent<Animation> ();
+		this.animation.Play ("Idle");
 	}
 
 	public void ComputeAdjList ()
@@ -90,11 +107,12 @@ public class TacticActor : GameActor
 		}
 
 		selectableTiles.Clear ();
+		this.currentState = State.Idle;
 	}
 
-	public void ResetRotation ()
+	public void ResetXRotation ()
 	{
-		this.transform.rotation = Quaternion.Euler (new Vector3 (0, 0, 0));
+		this.transform.rotation = Quaternion.Euler (new Vector3 (0, transform.eulerAngles.y, transform.eulerAngles.z));
 	}
 
 	public void MoveToTile (Tile targetTile)
@@ -117,6 +135,7 @@ public class TacticActor : GameActor
 	{
 		if (path.Count > 0) {
 			//move
+			this.currentState = State.Move;
 			Tile t = path.Peek ();
 			Vector3 target = t.transform.position;
 
@@ -138,7 +157,8 @@ public class TacticActor : GameActor
 			//not move, out of path
 			this.SetIsMoving (false);
 			ResetTiles ();
-			ResetRotation ();
+
+			ResetXRotation ();
 		}
 	}
 

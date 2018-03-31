@@ -29,6 +29,8 @@ public class Minion : TacticActor
 
 	public void Update ()
 	{
+		this.TacticActorUpdate ();
+
 		Tile t = null;
 		if (bMinionSelected && currentState == State.Move) {
 
@@ -53,6 +55,7 @@ public class Minion : TacticActor
 		if (bMinionSelected && currentState == State.Attack) {
 			
 		}
+
 	}
 
 	public override void Attack ()
