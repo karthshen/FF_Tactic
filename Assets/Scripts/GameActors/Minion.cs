@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Minion : TacticActor
 {
+
+
 	private bool bMinionSelected = false;
 	// Use this for initialization
 	void Start ()

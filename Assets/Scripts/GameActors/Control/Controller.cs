@@ -6,11 +6,13 @@ public class Controller : MonoBehaviour
 {
 
 	private InputHandler inputHandler;
+	private GameActor selectedActor;
 
 	// Use this for initialization
 	void Start ()
 	{
 		this.inputHandler = new InputHandler ();
+		this.selectedActor = inputHandler.GetSelectedActor ();
 	}
 	
 	// Update is called once per frame
@@ -20,5 +22,17 @@ public class Controller : MonoBehaviour
 		command = inputHandler.HandleInput ();
 		if (!ReferenceEquals (command, null))
 			command.Execute ();
+
+		this.selectedActor = inputHandler.GetSelectedActor ();
+	}
+
+	public bool IsCharacterSelected ()
+	{
+		return !ReferenceEquals (this.selectedActor, null);
+	}
+
+	public GameActor GetSelectedActor ()
+	{
+		return this.selectedActor;
 	}
 }

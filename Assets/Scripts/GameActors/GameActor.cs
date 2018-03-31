@@ -11,6 +11,8 @@ public abstract class GameActor : MonoBehaviour
 		Idle
 	}
 
+	protected float maxHealth;
+	protected float maxMana;
 	protected float health;
 	protected float mana;
 
@@ -19,4 +21,14 @@ public abstract class GameActor : MonoBehaviour
 	public abstract void Move ();
 
 	public abstract void Attack ();
+
+	public float GetHealthPercentage ()
+	{
+		return health / maxHealth;
+	}
+
+	public float GetManaPercentage ()
+	{
+		return mana / maxMana;
+	}
 }

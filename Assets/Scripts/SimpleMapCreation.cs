@@ -19,13 +19,14 @@ public static class MenuItems
 	public static void GenerateMap ()
 	{
 
-		int size = 10;
+		int row = 4;
+		int col = 8;
 
 		GameObject WaterTile = GameObject.Find ("WaterTile"); //1
 		GameObject GrassTile = GameObject.Find ("GrassTile");//2
 		GameObject GroundTile = GameObject.Find ("GroundTile");//3
 		GameObject RockTile = GameObject.Find ("RockTile");  //4
-
+		/*
 		string[] map = { 
 			"1111111111" +
 			"1111111111" +
@@ -82,11 +83,33 @@ public static class MenuItems
 			"0000000000" +
 			"0000000000"
 		};
+		*/
+		string[] map = {
+			"44444444" +
+			"04444440" +
+			"00444400" +
+			"00044000",
+
+			"44444444" +
+			"04444440" +
+			"00444400" +
+			"00044000",
+
+			"44444444" +
+			"04444440" +
+			"00444400" +
+			"00044000",
+
+			"44444444" +
+			"04444440" +
+			"00444400" +
+			"00044000",
+		};
 
 		for (int a = 0; a < map.Length; a++) {
-			for (int i = 0; i < size; i++) {
-				for (int j = 0; j < size; j++) {
-					char c = map [a] [i * size + j];
+			for (int i = 0; i < row; i++) {
+				for (int j = 0; j < col; j++) {
+					char c = map [a] [i * col + j];
 					Vector3 position0 = new Vector3 (i, a, j);
 
 					switch (c) {

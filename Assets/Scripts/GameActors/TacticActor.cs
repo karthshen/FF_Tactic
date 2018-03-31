@@ -13,6 +13,12 @@ public abstract class TacticActor : GameActor
 	//current tile this minion is on
 
 	[SerializeField]
+	private float maxHealthT = 100f;
+	[SerializeField]
+	private float maxManaT = 100f;
+
+
+	[SerializeField]
 	private int move = 5;
 	[SerializeField]
 	private float jumpHeight = 1f;
@@ -26,6 +32,25 @@ public abstract class TacticActor : GameActor
 	Vector3 targetDirection = new Vector3 ();
 
 	float halfHeight;
+
+	protected void Init ()
+	{
+		gameboard = GameObject.FindGameObjectsWithTag ("Tile");
+		halfHeight = GetComponentInChildren<MeshRenderer> ().bounds.extents.y;
+		this.currentState = State.Idle;
+		this.ResetTiles ();
+
+		this.animat = GetComponent<Animation> ();
+		this.animat.Play ("Idle");
+
+		this.maxHealth = maxHealthT;
+		this.maxMana = maxManaT;
+
+		this.health = maxHealth;
+		this.mana = maxMana;
+
+	}
+
 
 	public override void Move ()
 	{
@@ -46,17 +71,6 @@ public abstract class TacticActor : GameActor
 				animat.Play ("RunFront");
 			}
 		}
-	}
-
-	protected void Init ()
-	{
-		gameboard = GameObject.FindGameObjectsWithTag ("Tile");
-		halfHeight = GetComponentInChildren<MeshRenderer> ().bounds.extents.y;
-		this.currentState = State.Idle;
-		this.ResetTiles ();
-
-		this.animat = GetComponent<Animation> ();
-		this.animat.Play ("Idle");
 	}
 
 	public void ComputeAdjList ()
@@ -217,6 +231,16 @@ public abstract class TacticActor : GameActor
 		}
 
 		return targetTile;
+	}
+
+	public float GetHealthPercentage ()
+	{
+		return health / maxHealth;
+	}
+
+	public float GetManaPercentage ()
+	{
+		return mana / maxMana;
 	}
 }
 
