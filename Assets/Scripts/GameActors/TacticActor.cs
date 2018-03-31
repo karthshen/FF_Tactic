@@ -20,7 +20,7 @@ public abstract class TacticActor : GameActor
 	private float moveSpeed = 1f;
 	private bool bIsMoving = false;
 
-	private Animation animation;
+	private Animation animat;
 
 	Vector3 velocity = new Vector3 ();
 	Vector3 targetDirection = new Vector3 ();
@@ -38,12 +38,12 @@ public abstract class TacticActor : GameActor
 
 	public void TacticActorUpdate ()
 	{
-		if (animation != null) {
+		if (animat != null) {
 
 			if (this.currentState == State.Idle) {
-				animation.Play ("Idle");
+				animat.Play ("Idle");
 			} else if (this.currentState == State.Move) {
-				animation.Play ("RunFront");
+				animat.Play ("RunFront");
 			}
 		}
 	}
@@ -55,8 +55,8 @@ public abstract class TacticActor : GameActor
 		this.currentState = State.Idle;
 		this.ResetTiles ();
 
-		this.animation = GetComponent<Animation> ();
-		this.animation.Play ("Idle");
+		this.animat = GetComponent<Animation> ();
+		this.animat.Play ("Idle");
 	}
 
 	public void ComputeAdjList ()

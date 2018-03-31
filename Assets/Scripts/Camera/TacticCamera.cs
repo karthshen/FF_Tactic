@@ -22,6 +22,10 @@ public class TacticCamera : MonoBehaviour
 		if (Input.GetButton ("CameraRight"))
 			this.CameraRight ();
 
+		if (Input.GetButtonDown ("CameraRotateLeft"))
+			this.RotateLeft ();
+		if (Input.GetButtonDown ("CameraRotateRight"))
+			this.RotateRight ();
 		//CameraMovement (x, z);
 	}
 
