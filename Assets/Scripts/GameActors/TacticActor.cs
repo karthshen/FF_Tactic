@@ -232,16 +232,7 @@ public abstract class TacticActor : GameActor
 
 		return targetTile;
 	}
-
-	public float GetHealthPercentage ()
-	{
-		return health / maxHealth;
-	}
-
-	public float GetManaPercentage ()
-	{
-		return mana / maxMana;
-	}
+		
 }
 
 
