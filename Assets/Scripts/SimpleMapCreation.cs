@@ -26,7 +26,7 @@ public static class MenuItems
 		GameObject GrassTile = GameObject.Find ("GrassTile");//2
 		GameObject GroundTile = GameObject.Find ("GroundTile");//3
 		GameObject RockTile = GameObject.Find ("RockTile");  //4
-		/*
+		/* Ground
 		string[] map = { 
 			"1111111111" +
 			"1111111111" +
@@ -84,6 +84,7 @@ public static class MenuItems
 			"0000000000"
 		};
 		*/
+		/* Ugly Mountain */
 		string[] map = {
 			"44444444" +
 			"04444440" +
