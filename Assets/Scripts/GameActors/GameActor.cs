@@ -8,7 +8,8 @@ public abstract class GameActor : MonoBehaviour
 	{
 		Move,
 		Attack,
-		Idle
+		Idle,
+		Death
 	}
 
 	protected float maxHealth;
@@ -31,4 +32,25 @@ public abstract class GameActor : MonoBehaviour
 	{
 		return mana / maxMana;
 	}
+
+	public float TakeDamage (float damage)
+	{
+		this.health -= damage;
+		if (this.health <= 0) {
+			this.Death ();
+		}
+
+		return this.health;
+	}
+
+	public float HealthDamage (float heal)
+	{
+		this.health += heal;
+		if (this.health > 100)
+			this.health = 100;
+
+		return this.health;
+	}
+
+	protected abstract void Death ();
 }

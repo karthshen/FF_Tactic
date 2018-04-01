@@ -93,7 +93,7 @@ public abstract class TacticActor : GameActor
 		//BFS
 		queue.Enqueue (currentTile);
 		currentTile.visited = true;
-		currentTile.SetHasMinion (true);
+		currentTile.SetHasEntity (true);
 
 		while (queue.Count > 0) {
 			Tile t = queue.Dequeue ();
@@ -121,7 +121,7 @@ public abstract class TacticActor : GameActor
 		}
 
 		selectableTiles.Clear ();
-		this.currentState = State.Idle;
+		//this.currentState = State.Idle;
 	}
 
 	public void ResetXRotation ()
@@ -166,13 +166,35 @@ public abstract class TacticActor : GameActor
 				//Minion reached tile
 				transform.position = target;
 				path.Pop ();
+				//Detect Trap upon reach tile
+				DetectTrap ();
 			}
 		} else {
-			//not move, out of path
-			this.SetIsMoving (false);
-			ResetTiles ();
+			//Out of path, check end of turn conditions
+			this.EndOfTurnActions ();
+		}
+	}
 
-			ResetXRotation ();
+	private void EndOfTurnActions ()
+	{
+		//not move, out of path
+		this.SetIsMoving (false);
+		ResetTiles ();
+		ResetXRotation ();
+		//DetectTrap (); Removing because taking excessive damage
+	}
+
+	private void DetectTrap ()
+	{
+		//Detect Trap damage
+		Vector3 halfExtent = new Vector3 (0.5f, 0.5f, 0.5f);
+		Collider[] colliders = Physics.OverlapBox (this.transform.position, halfExtent);
+		foreach (Collider collider in colliders) {
+			TacticTrap trap = collider.gameObject.GetComponentInParent<TacticTrap> ();
+			if (trap) {
+				this.TakeDamage (trap.GetAttackDamage ());
+				this.animat.Play ("Hit");
+			}
 		}
 	}
 
@@ -231,6 +253,13 @@ public abstract class TacticActor : GameActor
 		}
 
 		return targetTile;
+	}
+
+	protected override void Death ()
+	{
+		this.ResetTiles ();
+		this.animat.Play ("Death");
+		this.currentState = State.Death;
 	}
 		
 }

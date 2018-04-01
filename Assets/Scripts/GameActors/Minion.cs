@@ -15,6 +15,10 @@ public class Minion : TacticActor
 
 	public override void Move ()
 	{
+		if (this.currentState == State.Death) {
+			return;
+		}
+
 		if (bMinionSelected == true) {
 			this.ResetTiles ();
 			bMinionSelected = false;
@@ -85,48 +89,3 @@ public class Minion : TacticActor
 		return hit;
 	}
 }
-
-/*
-	// Update is called once per frame
-void Update ()
-{
-
-	//Don't question this
-	if (!bMinionSelected) {
-		if (CheckMouseClick ("Minion")) {
-			RaycastHit hit = GetMouseHit ();
-			int insID = hit.collider.gameObject.GetComponentInParent<Minion> ().GetInstanceID ();
-			if (insID == this.InstanceID) {
-				this.FindSelectableTiles ();
-				bMinionSelected = true;
-			}
-		} else {
-			//If moving, disable the selectable Tile UI
-		}
-
-	} else if (bMinionSelected) {
-		Tile t = null;
-		//if selected, do moving stuff
-		if (CheckMouseClick ("Minion")) {
-			this.ResetTiles ();
-			bMinionSelected = false;
-		} else if (CheckMouseClick ("Tile") && !GetIsMoving ()) {
-			RaycastHit hit = GetMouseHit ();
-			t = hit.collider.GetComponentInParent<Tile> ();
-			if (t.bSelectable) {
-				t.bTargetTile = true;
-				this.SetIsMoving (true);
-				//Start move to target tile
-				this.MoveToTile (t);
-			}
-		}
-
-		if (this.GetIsMoving ()) {
-			this.MoveOneStep ();
-			if (!this.GetIsMoving ())
-				this.bMinionSelected = false;
-		} 
-	}
-
-}
-*/

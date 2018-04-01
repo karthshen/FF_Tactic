@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -253,7 +253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -288,7 +288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -351,7 +351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -400,7 +400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -533,7 +533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -666,7 +666,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -969,7 +969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -1018,7 +1018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -1236,7 +1236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -1453,7 +1453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -1502,7 +1502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -1635,7 +1635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -1853,7 +1853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -2155,7 +2155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -2204,7 +2204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -2253,7 +2253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -2302,7 +2302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -2520,7 +2520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -2569,7 +2569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -2702,7 +2702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -2835,7 +2835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -2884,7 +2884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -2933,7 +2933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -2982,7 +2982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -3185,7 +3185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -3584,7 +3584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -3633,7 +3633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -4005,7 +4005,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -4321,7 +4321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -4454,7 +4454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -4574,7 +4574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -4783,7 +4783,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -4832,7 +4832,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -5036,7 +5036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -5183,7 +5183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -5484,7 +5484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -5519,7 +5519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -5919,7 +5919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -5968,7 +5968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -6101,7 +6101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -6150,7 +6150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -6873,7 +6873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -7006,7 +7006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -7139,7 +7139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -7272,7 +7272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -7321,7 +7321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -7370,7 +7370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -7588,7 +7588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -7721,7 +7721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -7770,7 +7770,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -7819,7 +7819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -7854,7 +7854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -7987,7 +7987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -8050,7 +8050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -8606,7 +8606,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -8655,7 +8655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -8937,7 +8937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -9071,7 +9071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -9106,7 +9106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -9169,7 +9169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -9218,7 +9218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -9351,7 +9351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -9568,7 +9568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -9701,7 +9701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -9835,7 +9835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -10220,7 +10220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -10269,7 +10269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -10318,7 +10318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -10353,7 +10353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -10500,7 +10500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -10886,7 +10886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -10935,7 +10935,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -10984,7 +10984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -11033,7 +11033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -11082,7 +11082,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -11131,7 +11131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -11433,7 +11433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -11566,7 +11566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -11615,7 +11615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -11664,13 +11664,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
   visited: 0
   parent: {fileID: 0}
   distance: 0
+--- !u!1001 &216214866
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1767299490}
+    m_Modifications:
+    - target: {fileID: 4445027691743452, guid: f057366210be42844a90d9183583311d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445027691743452, guid: f057366210be42844a90d9183583311d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445027691743452, guid: f057366210be42844a90d9183583311d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445027691743452, guid: f057366210be42844a90d9183583311d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445027691743452, guid: f057366210be42844a90d9183583311d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445027691743452, guid: f057366210be42844a90d9183583311d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445027691743452, guid: f057366210be42844a90d9183583311d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445027691743452, guid: f057366210be42844a90d9183583311d, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 65564205005406742, guid: f057366210be42844a90d9183583311d,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f057366210be42844a90d9183583311d, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &218344967
 GameObject:
   m_ObjectHideFlags: 0
@@ -11798,7 +11845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -11931,7 +11978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -12149,7 +12196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -12198,7 +12245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -12247,7 +12294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -12282,7 +12329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -12850,7 +12897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -12899,7 +12946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -12948,7 +12995,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -13082,7 +13129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -13131,7 +13178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -13265,7 +13312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -13314,7 +13361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -13447,7 +13494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -13496,7 +13543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -13545,7 +13592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -13679,7 +13726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -13980,7 +14027,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -14197,7 +14244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -14246,7 +14293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -14379,7 +14426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -14428,7 +14475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -14477,7 +14524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -14611,7 +14658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -14660,7 +14707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -14793,7 +14840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -14926,7 +14973,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -15060,7 +15107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -15109,7 +15156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -15412,7 +15459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -15545,7 +15592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -15594,7 +15641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -15643,7 +15690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -15692,7 +15739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -15741,7 +15788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -16198,7 +16245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -16247,7 +16294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -16310,7 +16357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -16359,7 +16406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -16408,7 +16455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -16626,7 +16673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -16675,7 +16722,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -16724,7 +16771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -16857,7 +16904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -17158,7 +17205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -17377,7 +17424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -17510,7 +17557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -17643,7 +17690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -17777,7 +17824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -17994,7 +18041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -18043,7 +18090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -18092,7 +18139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -18393,7 +18440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -18442,7 +18489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -18491,7 +18538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -18540,7 +18587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -18674,7 +18721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -19061,7 +19108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -19195,7 +19242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -19244,7 +19291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -19546,7 +19593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -19595,7 +19642,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -19729,7 +19776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -19862,7 +19909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -19911,7 +19958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -19946,7 +19993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -20009,7 +20056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -20563,7 +20610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -20612,7 +20659,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -20746,7 +20793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -20795,7 +20842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -20844,7 +20891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -20893,7 +20940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -20942,7 +20989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -20991,7 +21038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -21040,7 +21087,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -21257,7 +21304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -21559,7 +21606,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -21692,7 +21739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -21741,7 +21788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -21790,7 +21837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -21839,7 +21886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -22395,7 +22442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -22444,7 +22491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -22493,7 +22540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -22627,7 +22674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -22676,7 +22723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -23314,7 +23361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -23363,7 +23410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -23496,7 +23543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -23798,7 +23845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -23847,7 +23894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -23896,7 +23943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -24452,7 +24499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -24501,7 +24548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -24719,7 +24766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -24768,7 +24815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -24817,7 +24864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -25119,7 +25166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -25322,7 +25369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -25470,7 +25517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -25922,7 +25969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -25971,7 +26018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -26104,7 +26151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -26139,7 +26186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -26372,7 +26419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -26421,7 +26468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -26470,7 +26517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -26772,7 +26819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -26821,7 +26868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -26954,7 +27001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -27340,7 +27387,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -27389,7 +27436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -27508,7 +27555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -27655,7 +27702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -27788,7 +27835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -28006,7 +28053,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -28225,7 +28272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -28358,7 +28405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -28660,7 +28707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -28793,7 +28840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -28842,7 +28889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -28891,7 +28938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -29025,7 +29072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -29074,7 +29121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -29360,7 +29407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -29395,7 +29442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -29458,7 +29505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -29507,7 +29554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -29556,7 +29603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -29689,7 +29736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -29738,7 +29785,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -29787,7 +29834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -30174,7 +30221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -30223,7 +30270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -30272,7 +30319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -30321,7 +30368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -30791,7 +30838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -30840,7 +30887,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -30889,7 +30936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -30938,7 +30985,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -31661,7 +31708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -31710,7 +31757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -32012,7 +32059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -32061,7 +32108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -32110,7 +32157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -32243,7 +32290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -32372,8 +32419,25 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4318570988188430, guid: d028bf47120acbe4bbdb31def34aa8d1, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4318570988188430, guid: d028bf47120acbe4bbdb31def34aa8d1, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318570988188430, guid: d028bf47120acbe4bbdb31def34aa8d1, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318570988188430, guid: d028bf47120acbe4bbdb31def34aa8d1, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 111709774118900528, guid: d028bf47120acbe4bbdb31def34aa8d1,
+        type: 2}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400016, guid: 1905f6114f8c18f44b69b884c2904a63, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d028bf47120acbe4bbdb31def34aa8d1, type: 2}
   m_IsPrefabParent: 0
@@ -32419,7 +32483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -32454,7 +32518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -32517,7 +32581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -32566,7 +32630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -32615,7 +32679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -32904,7 +32968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -33388,7 +33452,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -33522,7 +33586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -33571,7 +33635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -33874,7 +33938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -33923,7 +33987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -33972,7 +34036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -34021,7 +34085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -34070,7 +34134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -34119,7 +34183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -34168,7 +34232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -34217,7 +34281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -34336,7 +34400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -34652,7 +34716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -34869,7 +34933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -34918,7 +34982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -35303,7 +35367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -35352,7 +35416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -35656,7 +35720,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -35705,7 +35769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -35839,7 +35903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -35888,7 +35952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -35937,7 +36001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -35986,7 +36050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -36035,7 +36099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -36070,7 +36134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -36301,7 +36365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -36350,7 +36414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -36399,7 +36463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -36532,7 +36596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -36751,7 +36815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -36884,7 +36948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -36933,7 +36997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -37234,7 +37298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -37368,7 +37432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -37403,7 +37467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -37634,7 +37698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -37936,7 +38000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -38140,7 +38204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -38203,7 +38267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -38382,7 +38446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -38755,7 +38819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -38818,7 +38882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -38937,7 +39001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -39168,7 +39232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -39217,7 +39281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -39266,7 +39330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -39315,7 +39379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -39448,7 +39512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -39483,7 +39547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -39630,7 +39694,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -39764,7 +39828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -39898,7 +39962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -39947,7 +40011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -39996,7 +40060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -40045,7 +40109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -40094,7 +40158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -40649,7 +40713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -40698,7 +40762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -40747,7 +40811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -40965,7 +41029,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -41098,7 +41162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -41231,7 +41295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -41280,7 +41344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -41581,7 +41645,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -41714,7 +41778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -41763,7 +41827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -41812,7 +41876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -41946,7 +42010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -42079,7 +42143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -42128,7 +42192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -42345,7 +42409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -42394,7 +42458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -42527,7 +42591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -42576,7 +42640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -42625,7 +42689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -42843,7 +42907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -42977,7 +43041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -43012,7 +43076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -43243,7 +43307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -43292,7 +43356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -43510,7 +43574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -43727,7 +43791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -43776,7 +43840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -43825,7 +43889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -43874,7 +43938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -44092,7 +44156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -44141,7 +44205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -44190,7 +44254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -44239,7 +44303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -44288,7 +44352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -44505,7 +44569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -44808,7 +44872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -44942,7 +45006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -44991,7 +45055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -45100,7 +45164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -45149,7 +45213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -45268,7 +45332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -45415,7 +45479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -45548,7 +45612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -45597,7 +45661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -45730,7 +45794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -45779,7 +45843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -45828,7 +45892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -45877,7 +45941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -45912,7 +45976,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -45975,7 +46039,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -46024,7 +46088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -46073,7 +46137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -46207,7 +46271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -46256,7 +46320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -46459,7 +46523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -46606,7 +46670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -46655,7 +46719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -46957,7 +47021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -47090,7 +47154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -47139,7 +47203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -47188,7 +47252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -47237,7 +47301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -47286,7 +47350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -47335,7 +47399,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -47384,7 +47448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -47602,7 +47666,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -47651,7 +47715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -47869,7 +47933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -48002,7 +48066,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -48135,7 +48199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -48170,7 +48234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -48317,7 +48381,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -48618,7 +48682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -48667,7 +48731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -48716,7 +48780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -48765,7 +48829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -48899,7 +48963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -48934,7 +48998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -49993,7 +50057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -50126,7 +50190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -50597,7 +50661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -50646,7 +50710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -50695,7 +50759,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -50828,7 +50892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -51116,7 +51180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -51264,7 +51328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -51481,7 +51545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -51530,7 +51594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -51663,7 +51727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -51712,7 +51776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -51845,7 +51909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -51894,7 +51958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -52007,7 +52071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -52308,7 +52372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -52610,7 +52674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -52659,7 +52723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -52792,7 +52856,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -52841,7 +52905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -52890,7 +52954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -53024,7 +53088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -53073,7 +53137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -53206,7 +53270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -53339,7 +53403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -53459,7 +53523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -53522,7 +53586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -53571,7 +53635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -54041,7 +54105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -54090,7 +54154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -54223,7 +54287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -54272,7 +54336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -54321,7 +54385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -54454,7 +54518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -54503,7 +54567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -54636,7 +54700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -54685,7 +54749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -54734,7 +54798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -55121,7 +55185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -55507,7 +55571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -55556,7 +55620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -55689,7 +55753,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -55738,7 +55802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -55787,7 +55851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -55822,7 +55886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -55885,7 +55949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -55934,7 +55998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -56281,7 +56345,7 @@ RectTransform:
   m_Children:
   - {fileID: 998854675}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -56414,7 +56478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -56547,7 +56611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -56681,7 +56745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -56730,7 +56794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -56864,7 +56928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -57083,7 +57147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -57216,7 +57280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -57265,7 +57329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -57566,7 +57630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -57699,7 +57763,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -57832,7 +57896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -58133,7 +58197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -58267,7 +58331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -58485,7 +58549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -58534,7 +58598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -58753,7 +58817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -58971,7 +59035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -59020,7 +59084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -59154,7 +59218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -59203,7 +59267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -59657,7 +59721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -59720,7 +59784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -59853,7 +59917,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -59902,7 +59966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -60191,7 +60255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -60254,7 +60318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -60387,7 +60451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -60436,7 +60500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -60485,7 +60549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -60703,7 +60767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -60836,7 +60900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -60969,7 +61033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -61018,7 +61082,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -61235,7 +61299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -61284,7 +61348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -61333,7 +61397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -61452,7 +61516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -61586,7 +61650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -61649,7 +61713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -61852,7 +61916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -61915,7 +61979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -61964,7 +62028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -62013,7 +62077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -62146,7 +62210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -62279,7 +62343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -62412,7 +62476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -62461,7 +62525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -62510,7 +62574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -62559,7 +62623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -62777,7 +62841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -62995,7 +63059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -63382,7 +63446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -63431,7 +63495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -63480,7 +63544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -63529,7 +63593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -63830,7 +63894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -64132,7 +64196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -64349,7 +64413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -64398,7 +64462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -64447,7 +64511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -64496,7 +64560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -64545,7 +64609,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -64594,7 +64658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -64727,7 +64791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -64776,7 +64840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -64909,7 +64973,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -64958,7 +65022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -65598,7 +65662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -65647,7 +65711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -65780,7 +65844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -65913,7 +65977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -65962,7 +66026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -66011,7 +66075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -66482,7 +66546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -66531,7 +66595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -66664,7 +66728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -66713,7 +66777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -66762,7 +66826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -66811,7 +66875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -66860,7 +66924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -66994,7 +67058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -67043,7 +67107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -67092,7 +67156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -67141,7 +67205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -67190,7 +67254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -67323,7 +67387,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -67456,7 +67520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -67674,7 +67738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -67723,7 +67787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -67857,7 +67921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -67906,7 +67970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -67941,7 +68005,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -67990,7 +68054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -68138,7 +68202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -68173,7 +68237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -68236,7 +68300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -68271,7 +68335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -68334,7 +68398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -68383,7 +68447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -68516,7 +68580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -68565,7 +68629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -68614,7 +68678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -68747,7 +68811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -68796,7 +68860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -68929,7 +68993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -68964,7 +69028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -69027,7 +69091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -69160,7 +69224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -69209,7 +69273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -69258,7 +69322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -69307,7 +69371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -70283,7 +70347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -70417,7 +70481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -70466,7 +70530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -70683,7 +70747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -70732,7 +70796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -70781,7 +70845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -70830,7 +70894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -70963,7 +71027,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -71096,7 +71160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -71145,7 +71209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -71448,7 +71512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -71497,7 +71561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -71546,7 +71610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -71763,7 +71827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -71812,7 +71876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -71945,7 +72009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -72495,7 +72559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -72544,7 +72608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -72761,7 +72825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -72810,7 +72874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -72859,7 +72923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -73078,7 +73142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -73293,7 +73357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -73487,7 +73551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -73859,7 +73923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -74006,7 +74070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -74394,7 +74458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -74443,7 +74507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -74492,7 +74556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -74625,7 +74689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -74674,7 +74738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -74808,7 +74872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -74857,7 +74921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -74991,7 +75055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -75040,7 +75104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -75089,7 +75153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -75138,7 +75202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -75187,7 +75251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -75404,7 +75468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -75537,7 +75601,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -75754,7 +75818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -76056,7 +76120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -76105,7 +76169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -76239,7 +76303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -76288,7 +76352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -76421,7 +76485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -76554,7 +76618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -76688,7 +76752,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -76821,7 +76885,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -76870,7 +76934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -77087,7 +77151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -77136,7 +77200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -77438,7 +77502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -77571,7 +77635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -77789,7 +77853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -78090,7 +78154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -78561,7 +78625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -78680,7 +78744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -78743,7 +78807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -78877,7 +78941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -79265,7 +79329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -79314,7 +79378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -79363,7 +79427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -79496,7 +79560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -79629,7 +79693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -79678,7 +79742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -79811,7 +79875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -80113,7 +80177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -80162,7 +80226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -80295,7 +80359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -80330,7 +80394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -80393,7 +80457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -80442,7 +80506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -80491,7 +80555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -80792,7 +80856,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -80841,7 +80905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -81058,7 +81122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -81107,7 +81171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -81156,7 +81220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -81205,7 +81269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -81240,7 +81304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -81725,7 +81789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -81859,7 +81923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -82499,7 +82563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -82548,7 +82612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -82667,7 +82731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -82814,7 +82878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -82863,7 +82927,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -82898,7 +82962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -82961,7 +83025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -83179,7 +83243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -83228,7 +83292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -83445,7 +83509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -83494,7 +83558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -83698,7 +83762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -83846,7 +83910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -83895,7 +83959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -83944,7 +84008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -83993,7 +84057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -84042,7 +84106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -84091,7 +84155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -84140,7 +84204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -84357,7 +84421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -84476,7 +84540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -84623,7 +84687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -84756,7 +84820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -84805,7 +84869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -84854,7 +84918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -84903,7 +84967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -84952,7 +85016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -85001,7 +85065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -85134,7 +85198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -85436,7 +85500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -85485,7 +85549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -85534,7 +85598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -85583,7 +85647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -85702,7 +85766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -85765,7 +85829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -85814,7 +85878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -85947,7 +86011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -85996,7 +86060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -86200,7 +86264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -86515,7 +86579,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -86648,7 +86712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -86697,7 +86761,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -86915,7 +86979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -86964,7 +87028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -87013,7 +87077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -87314,7 +87378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -87448,7 +87512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -87652,7 +87716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -87715,7 +87779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -87764,7 +87828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -87897,7 +87961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -87946,7 +88010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -88066,7 +88130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -88129,7 +88193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -88430,7 +88494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -88479,7 +88543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -88612,7 +88676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -88745,7 +88809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -89032,7 +89096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -89095,7 +89159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -89144,7 +89208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -89193,7 +89257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -89242,7 +89306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -89291,7 +89355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -89340,7 +89404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -89895,7 +89959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -90028,7 +90092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -90583,7 +90647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -90632,7 +90696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -90849,7 +90913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -90983,7 +91047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -91032,7 +91096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -91081,7 +91145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -91130,7 +91194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -91179,7 +91243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -91214,7 +91278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -91277,7 +91341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -91312,7 +91376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -91796,7 +91860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -92015,7 +92079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -92148,7 +92212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -92365,7 +92429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -92666,7 +92730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -92799,7 +92863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -92932,7 +92996,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -93065,7 +93129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -93282,7 +93346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -93331,7 +93395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -93380,7 +93444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -93513,7 +93577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -93562,7 +93626,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -93611,7 +93675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -93660,7 +93724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -93709,7 +93773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -93758,7 +93822,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -93891,7 +93955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -94025,7 +94089,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -94117,6 +94181,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1600042168}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1601253280 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1556320401166756, guid: f057366210be42844a90d9183583311d,
+    type: 2}
+  m_PrefabInternal: {fileID: 216214866}
+--- !u!4 &1601253281 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4445027691743452, guid: f057366210be42844a90d9183583311d,
+    type: 2}
+  m_PrefabInternal: {fileID: 216214866}
+--- !u!114 &1601253283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1601253280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d230b75cafa34b47b13e74ec6fcc316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDmg: 10
+  bIsMoving: 0
 --- !u!1 &1602489006
 GameObject:
   m_ObjectHideFlags: 0
@@ -94145,7 +94232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -94292,7 +94379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -94509,7 +94596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -94544,7 +94631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -94691,7 +94778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -94825,7 +94912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -95028,7 +95115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -95091,7 +95178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -95225,7 +95312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -95274,7 +95361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -95309,7 +95396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -95372,7 +95459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -95759,7 +95846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -95794,7 +95881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -95857,7 +95944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -96160,7 +96247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -96209,7 +96296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -96258,7 +96345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -96293,7 +96380,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -96526,7 +96613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -96660,7 +96747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -96793,7 +96880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -96913,7 +97000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -97145,7 +97232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -97362,7 +97449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -97495,7 +97582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -97544,7 +97631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -97593,7 +97680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -97895,7 +97982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -97944,7 +98031,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -98583,7 +98670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -98632,7 +98719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -98681,7 +98768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -98730,7 +98817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -98779,7 +98866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -98913,7 +99000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -99298,7 +99385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -99347,7 +99434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -99396,7 +99483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -99866,7 +99953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -99999,7 +100086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -100216,7 +100303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -100265,7 +100352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -100314,7 +100401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -100616,7 +100703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -100749,7 +100836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -100798,7 +100885,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -100847,7 +100934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -100896,7 +100983,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -101114,7 +101201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -101271,7 +101358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -101320,7 +101407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -101622,7 +101709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -101755,7 +101842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -101874,7 +101961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -102021,7 +102108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -102070,7 +102157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -102119,7 +102206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -102253,7 +102340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -102386,7 +102473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -102520,7 +102607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -102569,7 +102656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -102788,7 +102875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -102837,7 +102924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -103125,7 +103212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -103188,7 +103275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -103659,7 +103746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -103708,7 +103795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -103926,7 +104013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -104228,7 +104315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -104277,7 +104364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -104453,6 +104540,35 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1766219448}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1767299489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1767299490}
+  m_Layer: 0
+  m_Name: Traps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1767299490
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1767299489}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10, y: 0, z: -5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1601253281}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1767770317
 GameObject:
   m_ObjectHideFlags: 0
@@ -104495,7 +104611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -104544,7 +104660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -104593,7 +104709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -104796,7 +104912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -105029,7 +105145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -105247,7 +105363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -105296,7 +105412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -105345,7 +105461,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -105479,7 +105595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -105613,7 +105729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -105746,7 +105862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -105879,7 +105995,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -105928,7 +106044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -106061,7 +106177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -106194,7 +106310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -106633,7 +106749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -106781,7 +106897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -107250,7 +107366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -107299,7 +107415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -107684,7 +107800,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -107733,7 +107849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -107782,7 +107898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -107901,7 +108017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -108048,7 +108164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -108602,7 +108718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -108735,7 +108851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -108784,7 +108900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -108833,7 +108949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -108882,7 +108998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -108931,7 +109047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -108980,7 +109096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -109113,7 +109229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -109162,7 +109278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -109211,7 +109327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -109260,7 +109376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -109295,7 +109411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -109358,7 +109474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -109491,7 +109607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -109540,7 +109656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -109589,7 +109705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -109723,7 +109839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -109772,7 +109888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -109821,7 +109937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -109870,7 +109986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -110004,7 +110120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -110053,7 +110169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -110354,7 +110470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -110487,7 +110603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -110704,7 +110820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -110838,7 +110954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -111141,7 +111257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -111445,7 +111561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -111494,7 +111610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -111627,7 +111743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -111676,7 +111792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -111894,7 +112010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -111943,7 +112059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -112161,7 +112277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -112210,7 +112326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -112679,7 +112795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -112728,7 +112844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -112777,7 +112893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -112910,7 +113026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -113043,7 +113159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -113176,7 +113292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -113225,7 +113341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -113401,7 +113517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -113872,7 +113988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -114175,7 +114291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -114309,7 +114425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -114358,7 +114474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -114407,7 +114523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -114864,7 +114980,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -115095,7 +115211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -115144,7 +115260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -115278,7 +115394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -115482,7 +115598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -115545,7 +115661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -115847,7 +115963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -116025,7 +116141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -116074,7 +116190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -116123,7 +116239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -116172,7 +116288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -116221,7 +116337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -116438,7 +116554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -116656,7 +116772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -116873,7 +116989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -117260,7 +117376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -117309,7 +117425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -117611,7 +117727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -117912,7 +118028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -118045,7 +118161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -118094,7 +118210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -118143,7 +118259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -118444,7 +118560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -118661,7 +118777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -118710,7 +118826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -118927,7 +119043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -118976,7 +119092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -119109,7 +119225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -119326,7 +119442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -119543,7 +119659,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -119592,7 +119708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -119726,7 +119842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -119775,7 +119891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -120077,7 +120193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -120126,7 +120242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -120175,7 +120291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -120224,7 +120340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -120273,7 +120389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -120491,7 +120607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -120540,7 +120656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -120589,7 +120705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -120722,7 +120838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -120855,7 +120971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -120890,7 +121006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -121037,7 +121153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -121170,7 +121286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -121303,7 +121419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -121507,7 +121623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -121570,7 +121686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -121619,7 +121735,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -122175,7 +122291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -122224,7 +122340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -122273,7 +122389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -122406,7 +122522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -122539,7 +122655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -122574,7 +122690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -122805,7 +122921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -122938,7 +123054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -123240,7 +123356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -123275,7 +123391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -123422,7 +123538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -123639,7 +123755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -123772,7 +123888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -123821,7 +123937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -124122,7 +124238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []
@@ -124255,7 +124371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bWalkable: 1
-  bHasMinion: 0
+  bHasEntity: 0
   bTargetTile: 0
   bSelectable: 0
   adj_List: []

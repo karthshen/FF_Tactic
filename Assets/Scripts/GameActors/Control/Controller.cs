@@ -35,4 +35,9 @@ public class Controller : MonoBehaviour
 	{
 		return this.selectedActor;
 	}
+
+	public void GameExit ()
+	{
+		Application.Quit ();
+	}
 }
