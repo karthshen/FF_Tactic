@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Controller : MonoBehaviour
@@ -24,6 +25,10 @@ public class Controller : MonoBehaviour
 			command.Execute ();
 
 		this.selectedActor = inputHandler.GetSelectedActor ();
+
+		if (Input.GetKeyUp (KeyCode.Escape)) {
+			ExitToMenu ();
+		}
 	}
 
 	public bool IsCharacterSelected ()
@@ -36,8 +41,8 @@ public class Controller : MonoBehaviour
 		return this.selectedActor;
 	}
 
-	public void GameExit ()
+	public void ExitToMenu ()
 	{
-		Application.Quit ();
+		SceneManager.LoadScene (0);
 	}
 }

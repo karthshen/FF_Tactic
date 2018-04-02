@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Tile : MonoBehaviour
@@ -39,6 +40,10 @@ public class Tile : MonoBehaviour
 	void Start ()
 	{
 		defaultColor = GetComponentInChildren<Renderer> ().material.color;
+
+		if (this.gameObject.name.Contains ("WaterTile")) {
+			this.bWalkable = false;
+		}
 	}
 	
 	// Update is called once per frame
