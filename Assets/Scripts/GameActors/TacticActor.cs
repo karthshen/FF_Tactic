@@ -121,7 +121,7 @@ public abstract class TacticActor : GameActor
 		}
 
 		selectableTiles.Clear ();
-		//this.currentState = State.Idle;
+
 	}
 
 	public void ResetXRotation ()
@@ -181,6 +181,7 @@ public abstract class TacticActor : GameActor
 		this.SetIsMoving (false);
 		ResetTiles ();
 		ResetXRotation ();
+		this.currentState = State.Idle;
 		//DetectTrap (); Removing because taking excessive damage
 	}
 
@@ -193,6 +194,8 @@ public abstract class TacticActor : GameActor
 			TacticTrap trap = collider.gameObject.GetComponentInParent<TacticTrap> ();
 			if (trap) {
 				this.TakeDamage (trap.GetAttackDamage ());
+				if (this.currentState == State.Death)
+					return;
 				this.animat.Play ("Hit");
 			}
 		}
@@ -258,8 +261,8 @@ public abstract class TacticActor : GameActor
 	protected override void Death ()
 	{
 		this.ResetTiles ();
-		this.animat.Play ("Death");
 		this.currentState = State.Death;
+		this.animat.Play ("Death");
 	}
 		
 }
