@@ -124,7 +124,7 @@ public class Tile : MonoBehaviour
 
 	private bool CheckSurfaceTile ()
 	{
-		Vector3 halfExtent = new Vector3 (0.1f, 0.1f, 0.1f);
+		Vector3 halfExtent = new Vector3 (0.2f, 0.2f, 0.2f);
 
 		Collider[] colliders = Physics.OverlapBox (this.transform.position + Vector3.up, halfExtent);
 		//Collider collider = Physics.CheckBox (this.transform.position + Vector3.up, halfExtent);
