@@ -62,6 +62,8 @@ public class Minion : TacticActor
 				if (pickup && DetectPickup (pickup.GetComponent<Collider> ())) {
 					pickup.Pickup (this);
 					this.ResetTiles ();
+					this.currentState = State.Idle;
+					bMinionSelected = false;
 				}
 			}
 		}

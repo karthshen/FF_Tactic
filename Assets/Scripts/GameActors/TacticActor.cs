@@ -204,7 +204,7 @@ public abstract class TacticActor : GameActor
 
 	protected bool DetectPickup (Collider pickupCollider)
 	{
-		Vector3 halfExtent = new Vector3 (0.5f, 0.5f, 0.5f);
+		Vector3 halfExtent = new Vector3 (1.0f, 1.0f, 1.0f);
 		Collider[] colliders = Physics.OverlapBox (this.transform.position, halfExtent);
 		foreach (Collider collider in colliders) {
 			if (pickupCollider == collider) {
