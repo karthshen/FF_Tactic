@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Minion
   - Tile
+  - Pickup
   layers:
   - Default
   - TransparentFX

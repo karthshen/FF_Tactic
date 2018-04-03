@@ -17,6 +17,8 @@ public abstract class GameActor : MonoBehaviour
 	protected float health;
 	protected float mana;
 
+	protected int coins;
+
 	protected State currentState;
 	// Use this for initialization
 	public abstract void Move ();

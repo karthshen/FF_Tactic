@@ -16,14 +16,13 @@ public abstract class TacticActor : GameActor
 	private float maxHealthT = 100f;
 	[SerializeField]
 	private float maxManaT = 100f;
-
-
 	[SerializeField]
 	private int move = 5;
 	[SerializeField]
 	private float jumpHeight = 1f;
 	[SerializeField]
 	private float moveSpeed = 1f;
+
 	private bool bIsMoving = false;
 
 	private Animation animat;
@@ -48,6 +47,8 @@ public abstract class TacticActor : GameActor
 
 		this.health = maxHealth;
 		this.mana = maxMana;
+
+		coins = 0;
 
 	}
 
@@ -201,6 +202,18 @@ public abstract class TacticActor : GameActor
 		}
 	}
 
+	protected bool DetectPickup (Collider pickupCollider)
+	{
+		Vector3 halfExtent = new Vector3 (0.5f, 0.5f, 0.5f);
+		Collider[] colliders = Physics.OverlapBox (this.transform.position, halfExtent);
+		foreach (Collider collider in colliders) {
+			if (pickupCollider == collider) {
+				return true;
+			}
+		}
+		return false;
+	}
+
 	private void CalculateDest (Vector3 target)
 	{
 		this.targetDirection = target - transform.position;
@@ -264,7 +277,16 @@ public abstract class TacticActor : GameActor
 		this.currentState = State.Death;
 		this.animat.Play ("Death");
 	}
-		
+
+	public void addPickupItem (TacticPickup pickup)
+	{
+		if (pickup.GetPickupType () == TacticPickup.PickupType.Chest) {
+			this.coins += ((TreasureChest)pickup).getCoins ();
+			Debug.Log ("Coin Collected: " + ((TreasureChest)pickup).getCoins () + " Total Coin: " + coins);
+		}
+
+		//Add scenerios for potions later@TODO
+	}
 }
 
 

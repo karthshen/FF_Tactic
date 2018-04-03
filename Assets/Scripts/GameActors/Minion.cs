@@ -54,6 +54,16 @@ public class Minion : TacticActor
 				if (!this.GetIsMoving ()) //when stopped
 					this.bMinionSelected = false;
 			}
+
+			//Temp pickup code
+			if (CheckMouseClick ("Pickup") && GetIsMoving () == false) {
+				RaycastHit hit = GetMouseHit ();
+				TacticPickup pickup = hit.collider.gameObject.GetComponent<TacticPickup> ();
+				if (pickup && DetectPickup (pickup.GetComponent<Collider> ())) {
+					pickup.Pickup (this);
+					this.ResetTiles ();
+				}
+			}
 		}
 
 		if (bMinionSelected && currentState == State.Attack) {
@@ -73,7 +83,7 @@ public class Minion : TacticActor
 		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 		RaycastHit hit;
 		if (Input.GetMouseButtonDown (0) && Physics.Raycast (ray, out hit)) {
-			if (hit.transform.parent.tag == hitTag) {
+			if (hit.transform.parent.tag == hitTag || hit.transform.tag == hitTag) {
 				return true;
 			}
 		}

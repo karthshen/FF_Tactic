@@ -20,15 +20,8 @@ public class TacticTrap : GameActor
 		animat = GetComponent<Animation> ();
 		halfHeight = GetComponentInChildren<MeshRenderer> ().bounds.extents.y;
 	}
-	
-	// Update is called once per frame
-	void OnCollisionEnter (Collision collision)
-	{
-		if (collision.gameObject.GetComponent<TacticActor> ()) {
-			TacticActor actor = collision.gameObject.GetComponent<TacticActor> ();
-			actor.TakeDamage (this.attackDmg);
-		}
-	}
+
+
 
 	public override void Move ()
 	{
