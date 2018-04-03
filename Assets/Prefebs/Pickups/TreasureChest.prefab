@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4859560957074452}
   - component: {fileID: 33601461823212594}
   - component: {fileID: 23422619208499344}
-  - component: {fileID: 65196741863514704}
   - component: {fileID: 114491814549559488}
+  - component: {fileID: 64157630871153762}
   m_Layer: 0
   m_Name: TreasureChest
   m_TagString: Pickup
@@ -157,8 +157,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1353165330121670}
   m_Mesh: {fileID: 4300000, guid: dd8ebbdcc572196408a6805681c6a297, type: 3}
---- !u!65 &65196741863514704
-BoxCollider:
+--- !u!64 &64157630871153762
+MeshCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -166,9 +166,11 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.6666667, y: 0.6666667, z: 0.6666667}
-  m_Center: {x: 0, y: 0, z: 0.4}
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 4b1205a7235860c479fc94aefe26ebf1, type: 3}
 --- !u!95 &95600849110201944
 Animator:
   serializedVersion: 3
@@ -198,4 +200,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coins: 10
-  destoryCountdown: 5
+  destoryCountdown: 2
