@@ -8,6 +8,9 @@ public class TreasureChest : TacticPickup
 	private Mesh secondaryMesh;
 
 	private GameObject openChest;
+
+	private AudioSource chestOpenFX;
+
 	[SerializeField]
 	private int coins = 10;
 
@@ -25,6 +28,8 @@ public class TreasureChest : TacticPickup
 		this.primaryMesh = this.GetComponent<MeshFilter> ().mesh;
 		this.openChest = GameObject.Find ("OpenChest");
 		this.secondaryMesh = openChest.GetComponent<MeshFilter> ().mesh;
+
+		this.chestOpenFX = GameObject.Find ("ChestAudio").GetComponent<AudioSource> ();
 	}
 
 	public void Update ()
@@ -40,6 +45,7 @@ public class TreasureChest : TacticPickup
 	public override void Pickup (TacticActor actor)
 	{
 		this.GetComponent<MeshFilter> ().mesh = secondaryMesh;
+		this.chestOpenFX.Play ();
 		actor.addPickupItem (this);
 		this.coins = 0;
 	}
