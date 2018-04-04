@@ -9,6 +9,7 @@ public class Controller : MonoBehaviour
 
 	private InputHandler inputHandler;
 	private GameActor selectedActor;
+	private float loseCountDown = 2.0f;
 
 	private int coinCount;
 	public Text countText;
@@ -32,12 +33,20 @@ public class Controller : MonoBehaviour
 			command.Execute ();
 
 		this.selectedActor = inputHandler.GetSelectedActor ();
+		UpdateScore ();
 
-		if (Input.GetKeyUp (KeyCode.Escape)) {
-			ExitToMenu ();
+		if (this.coinCount >= 40) {
+			command = new VictoryCommand ();
+			command.Execute ();
 		}
 
-		UpdateScore ();
+		if (this.selectedActor && this.selectedActor.GetHealthPercentage () <= 0) {
+			loseCountDown -= Time.deltaTime;
+			if (loseCountDown <= 0) {
+				command = new LoseCommand ();
+				command.Execute ();
+			}
+		}
 	}
 
 	public bool IsCharacterSelected ()

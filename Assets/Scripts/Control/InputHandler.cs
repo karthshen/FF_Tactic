@@ -28,6 +28,11 @@ public class InputHandler
 			}
 		}
 
+		if (Input.GetKeyUp (KeyCode.Escape)) {
+			PauseMenuCommand pauseMenuCommand = new PauseMenuCommand ();
+			return pauseMenuCommand;
+		}
+
 		return null;
 	}
 
