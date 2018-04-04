@@ -55,4 +55,9 @@ public abstract class GameActor : MonoBehaviour
 	}
 
 	protected abstract void Death ();
+
+	public int GetCoins ()
+	{
+		return this.coins;
+	}
 }

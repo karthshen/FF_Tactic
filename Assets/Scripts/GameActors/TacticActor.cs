@@ -287,6 +287,7 @@ public abstract class TacticActor : GameActor
 
 		//Add scenerios for potions later@TODO
 	}
+		
 }
 
 
