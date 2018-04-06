@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Tile : MonoBehaviour
@@ -13,7 +14,7 @@ public class Tile : MonoBehaviour
 	public bool bWalkable = true;
 	//Default all tiles are walkable
 	[SerializeField]
-	public bool bHasMinion = false;
+	public bool bHasEntity = false;
 	//if tile has a minion
 	[SerializeField]
 	public bool bTargetTile = false;
@@ -35,20 +36,24 @@ public class Tile : MonoBehaviour
 	public int distance = 0;
 
 
-	private bool ActorMoving = false;
-
 	// Use this for initialization
 	void Start ()
 	{
 		defaultColor = GetComponentInChildren<Renderer> ().material.color;
+
+		if (this.gameObject.name.Contains ("WaterTile")) {
+			this.bWalkable = false;
+		}
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
-		/*if (bHasMinion)
+		#if DEBUG_GAME
+		if (bHasMinion)
 			lerpColor = Color.red;
-		else*/
+		else 
+		#endif
 		if (bTargetTile)
 			lerpColor = Color.Lerp (defaultColor, Color.red, Mathf.PingPong (Time.time, lerpTime));
 		else if (bSelectable)
@@ -62,15 +67,12 @@ public class Tile : MonoBehaviour
 
 	public void Reset ()
 	{
-		bHasMinion = false;
-		Vector3 halfExtent = new Vector3 (0.25f, 0.25f, 0.25f);
-		Collider[] colliders = Physics.OverlapBox (this.transform.position + Vector3.up, halfExtent);
-		foreach (Collider obj in colliders) {
-			GameActor actor = obj.GetComponentInParent<GameActor> ();
-			if (actor) {
-				bHasMinion = true;
-			}
+		if (GetObjectOnTile ()) {
+			bHasEntity = true;
+		} else {
+			bHasEntity = false;
 		}
+
 		bTargetTile = false;
 		bSelectable = false;
 
@@ -91,6 +93,19 @@ public class Tile : MonoBehaviour
 
 	}
 
+	public GameObject GetObjectOnTile ()
+	{
+		Vector3 halfExtent = new Vector3 (0.25f, 0.25f, 0.25f);
+		Collider[] colliders = Physics.OverlapBox (this.transform.position + Vector3.up, halfExtent);
+		foreach (Collider obj in colliders) {
+			GameObject tileObject = obj.gameObject;
+			if (tileObject)
+				return tileObject;
+		}
+
+		return null;
+	}
+
 	private void CheckTile (Vector3 direction, float jumpHeight)
 	{
 
@@ -100,7 +115,7 @@ public class Tile : MonoBehaviour
 
 		foreach (Collider obj in colliders) {
 			Tile tile = obj.GetComponentInParent<Tile> ();
-			if (tile && tile.bWalkable && !tile.bHasMinion && tile.CheckSurfaceTile ()) {
+			if (tile && tile.bWalkable && !tile.bHasEntity && tile.CheckSurfaceTile ()) {
 				//@TODO if tile is occupied by enemy, make it not walkable
 				adj_List.Add (tile);
 			}
@@ -109,7 +124,7 @@ public class Tile : MonoBehaviour
 
 	private bool CheckSurfaceTile ()
 	{
-		Vector3 halfExtent = new Vector3 (0.1f, 0.1f, 0.1f);
+		Vector3 halfExtent = new Vector3 (0.2f, 0.2f, 0.2f);
 
 		Collider[] colliders = Physics.OverlapBox (this.transform.position + Vector3.up, halfExtent);
 		//Collider collider = Physics.CheckBox (this.transform.position + Vector3.up, halfExtent);
@@ -121,8 +136,8 @@ public class Tile : MonoBehaviour
 		return true;
 	}
 
-	public void SetHasMinion (bool bHasMinion)
+	public void SetHasEntity (bool bHasEntity)
 	{
-		this.bHasMinion = bHasMinion;
+		this.bHasEntity = bHasEntity;
 	}
 }

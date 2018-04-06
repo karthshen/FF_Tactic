@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class Minion : TacticActor
 {
+
+
 	private bool bMinionSelected = false;
-	private int InstanceID;
 	// Use this for initialization
 	void Start ()
 	{
 		Init ();
-		InstanceID = this.GetInstanceID ();
 	}
 
 	public override void Move ()
 	{
+		if (this.currentState == State.Death) {
+			return;
+		}
+
 		if (bMinionSelected == true) {
 			this.ResetTiles ();
 			bMinionSelected = false;
@@ -29,6 +33,8 @@ public class Minion : TacticActor
 
 	public void Update ()
 	{
+		this.TacticActorUpdate ();
+
 		Tile t = null;
 		if (bMinionSelected && currentState == State.Move) {
 
@@ -48,11 +54,24 @@ public class Minion : TacticActor
 				if (!this.GetIsMoving ()) //when stopped
 					this.bMinionSelected = false;
 			}
+
+			//Temp pickup code
+			if (CheckMouseClick ("Pickup") && GetIsMoving () == false) {
+				RaycastHit hit = GetMouseHit ();
+				TacticPickup pickup = hit.collider.gameObject.GetComponent<TacticPickup> ();
+				if (pickup && DetectPickup (pickup.GetComponent<Collider> ())) {
+					pickup.Pickup (this);
+					this.ResetTiles ();
+					this.currentState = State.Idle;
+					bMinionSelected = false;
+				}
+			}
 		}
 
 		if (bMinionSelected && currentState == State.Attack) {
 			
 		}
+
 	}
 
 	public override void Attack ()
@@ -66,7 +85,7 @@ public class Minion : TacticActor
 		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 		RaycastHit hit;
 		if (Input.GetMouseButtonDown (0) && Physics.Raycast (ray, out hit)) {
-			if (hit.transform.parent.tag == hitTag) {
+			if (hit.transform.parent.tag == hitTag || hit.transform.tag == hitTag) {
 				return true;
 			}
 		}
@@ -82,48 +101,3 @@ public class Minion : TacticActor
 		return hit;
 	}
 }
-
-/*
-	// Update is called once per frame
-void Update ()
-{
-
-	//Don't question this
-	if (!bMinionSelected) {
-		if (CheckMouseClick ("Minion")) {
-			RaycastHit hit = GetMouseHit ();
-			int insID = hit.collider.gameObject.GetComponentInParent<Minion> ().GetInstanceID ();
-			if (insID == this.InstanceID) {
-				this.FindSelectableTiles ();
-				bMinionSelected = true;
-			}
-		} else {
-			//If moving, disable the selectable Tile UI
-		}
-
-	} else if (bMinionSelected) {
-		Tile t = null;
-		//if selected, do moving stuff
-		if (CheckMouseClick ("Minion")) {
-			this.ResetTiles ();
-			bMinionSelected = false;
-		} else if (CheckMouseClick ("Tile") && !GetIsMoving ()) {
-			RaycastHit hit = GetMouseHit ();
-			t = hit.collider.GetComponentInParent<Tile> ();
-			if (t.bSelectable) {
-				t.bTargetTile = true;
-				this.SetIsMoving (true);
-				//Start move to target tile
-				this.MoveToTile (t);
-			}
-		}
-
-		if (this.GetIsMoving ()) {
-			this.MoveOneStep ();
-			if (!this.GetIsMoving ())
-				this.bMinionSelected = false;
-		} 
-	}
-
-}
-*/

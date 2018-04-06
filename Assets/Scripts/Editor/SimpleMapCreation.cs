@@ -19,11 +19,14 @@ public static class MenuItems
 	public static void GenerateMap ()
 	{
 
+		int row = 4;
+		int col = 8;
+
 		GameObject WaterTile = GameObject.Find ("WaterTile"); //1
 		GameObject GrassTile = GameObject.Find ("GrassTile");//2
 		GameObject GroundTile = GameObject.Find ("GroundTile");//3
 		GameObject RockTile = GameObject.Find ("RockTile");  //4
-
+		/* Ground
 		string[] map = { 
 			"1111111111" +
 			"1111111111" +
@@ -80,11 +83,50 @@ public static class MenuItems
 			"0000000000" +
 			"0000000000"
 		};
+		*/
+		/* Ugly Tree */
+		string[] map = {
+			"00000000" +
+			"00000000" +
+			"00022000" +
+			"00000000" +
+			"00000000",
+
+			"00000000" +
+			"00000000" +
+			"00022000" +
+			"00000000" +
+			"00000000",
+		
+			"00000000" +
+			"00000000" +
+			"00022000" +
+			"00000000" +
+			"00000000",
+
+			"00000000" +
+			"00022000" +
+			"00222200" +
+			"00022000" +
+			"00000000",
+
+			"00022000" +
+			"00222200" +
+			"02222220" +
+			"00222200" +
+			"00022000",
+
+			"00000000" +
+			"00022000" +
+			"00222200" +
+			"00022000" +
+			"00000000",
+		};
 
 		for (int a = 0; a < map.Length; a++) {
-			for (int i = 0; i < 10; i++) {
-				for (int j = 0; j < 10; j++) {
-					char c = map [a] [i * 10 + j];
+			for (int i = 0; i < row; i++) {
+				for (int j = 0; j < col; j++) {
+					char c = map [a] [i * col + j];
 					Vector3 position0 = new Vector3 (i, a, j);
 
 					switch (c) {
