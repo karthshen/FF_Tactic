@@ -20,8 +20,8 @@ public class Controller : MonoBehaviour
 		this.inputHandler = new InputHandler ();
 		this.selectedActor = inputHandler.GetSelectedActor ();
 
-		coinCount = 0;
-		countText.text = coinCount.ToString ();
+		//coinCount = 0;
+		//countText.text = coinCount.ToString ();
 	}
 	
 	// Update is called once per frame
@@ -33,12 +33,14 @@ public class Controller : MonoBehaviour
 			command.Execute ();
 
 		this.selectedActor = inputHandler.GetSelectedActor ();
-		UpdateScore ();
 
+		//UpdateScore ();
+		/* Victory/Lose condition - OLD
 		if (this.coinCount >= 40) {
 			command = new VictoryCommand ();
 			command.Execute ();
 		}
+
 
 		if (this.selectedActor && this.selectedActor.GetHealthPercentage () <= 0) {
 			loseCountDown -= Time.deltaTime;
@@ -47,6 +49,7 @@ public class Controller : MonoBehaviour
 				command.Execute ();
 			}
 		}
+		*/
 	}
 
 	public bool IsCharacterSelected ()
