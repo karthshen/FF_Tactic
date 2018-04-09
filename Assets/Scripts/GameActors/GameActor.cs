@@ -25,6 +25,12 @@ public abstract class GameActor : MonoBehaviour
 
 	public abstract void Attack ();
 
+	public abstract void CharacterSelected ();
+
+	public abstract void CharacterDeselected ();
+
+	protected abstract void Death ();
+
 	public float GetHealthPercentage ()
 	{
 		return health / maxHealth;
@@ -54,10 +60,9 @@ public abstract class GameActor : MonoBehaviour
 		return this.health;
 	}
 
-	protected abstract void Death ();
-
 	public int GetCoins ()
 	{
 		return this.coins;
 	}
+		
 }

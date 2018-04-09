@@ -27,11 +27,7 @@ public class Controller : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		Command command = null;
-		command = inputHandler.HandleInput ();
-		if (!ReferenceEquals (command, null))
-			command.Execute ();
-
+		this.inputHandler.HandleInput ();
 		this.selectedActor = inputHandler.GetSelectedActor ();
 
 		//UpdateScore ();
@@ -73,5 +69,33 @@ public class Controller : MonoBehaviour
 			this.coinCount = selectedActor.GetCoins ();
 			countText.text = coinCount.ToString ();
 		}
+	}
+
+	public void ButtonMove ()
+	{
+		Command moveCommand = this.inputHandler.ButtonMove ();
+		if (!ReferenceEquals (moveCommand, null))
+			moveCommand.Execute ();
+	}
+
+	public void ButtonAttack ()
+	{
+		Command attackCommand = this.inputHandler.ButtonAttack ();
+		if (!ReferenceEquals (attackCommand, null))
+			attackCommand.Execute ();
+	}
+
+	public void ButtonItems ()
+	{
+		Command itemCommand = this.inputHandler.ButtonItems ();
+		if (!ReferenceEquals (itemCommand, null))
+			itemCommand.Execute ();
+	}
+
+	public void ButtonSpells ()
+	{
+		Command spellCommand = this.inputHandler.ButtonSpells ();
+		if (!ReferenceEquals (spellCommand, null))
+			spellCommand.Execute ();
 	}
 }

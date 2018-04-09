@@ -28,6 +28,16 @@ public class TacticTrap : GameActor
 		
 	}
 
+	public override void CharacterSelected ()
+	{
+		
+	}
+
+	public override void CharacterDeselected ()
+	{
+		
+	}
+
 	public override void Attack ()
 	{
 		//throw new System.NotImplementedException ();

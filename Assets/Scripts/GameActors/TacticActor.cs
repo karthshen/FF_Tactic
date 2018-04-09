@@ -62,6 +62,24 @@ public abstract class TacticActor : GameActor
 		
 	}
 
+	public override void CharacterSelected ()
+	{
+		this.currentState = State.Move;
+	}
+
+	public override void CharacterDeselected ()
+	{
+		this.currentState = State.Idle;
+		this.ResetTiles ();
+	}
+
+	protected override void Death ()
+	{
+		this.ResetTiles ();
+		this.currentState = State.Death;
+		this.animat.Play ("Death");
+	}
+
 	public void TacticActorUpdate ()
 	{
 		if (animat != null) {
@@ -269,13 +287,6 @@ public abstract class TacticActor : GameActor
 		}
 
 		return targetTile;
-	}
-
-	protected override void Death ()
-	{
-		this.ResetTiles ();
-		this.currentState = State.Death;
-		this.animat.Play ("Death");
 	}
 
 	public void addPickupItem (TacticPickup pickup)
