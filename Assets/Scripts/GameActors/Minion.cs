@@ -18,17 +18,11 @@ public class Minion : TacticActor
 		if (this.currentState == State.Death) {
 			return;
 		}
-		/*
-		if (bMinionSelected == true) {
-			this.ResetTiles ();
-			bMinionSelected = false;
-		} else {
-        */
+
 		this.FindSelectableTiles ();
 		bMinionSelected = true;
 
 		this.currentState = State.Move;
-		//}
 	}
 
 	public void Update ()
