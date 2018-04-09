@@ -12,23 +12,30 @@ public class InputHandler
 		selectedActor = null;
 	}
 
-	public Command HandleInput ()
+	public void HandleInput ()
 	{
 		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 		RaycastHit hit;
 
 		if (Input.GetMouseButtonDown (0) && Physics.Raycast (ray, out hit)) {
 			GameActor actor = hit.collider.GetComponentInParent<GameActor> ();
-
-			/*if (ReferenceEquals (actor, null)) { //If clicked floor or something
+		
+			//1. If nothing is selected, select the clicked minion
+			//2. If same minion is clicked, deselect the minion
+			//3. If another minion clicked while current is idle, switch minion.
+			if (selectedActor == null && !ReferenceEquals (actor, null)) {
+				selectedActor = actor;
+				selectedActor.CharacterSelected ();
+			} else if (ReferenceEquals (actor, selectedActor)) {
 				selectedActor.CharacterDeselected ();
-				this.selectedActor = null;
-			} else */
-			/*if (!ReferenceEquals (actor, selectedActor) && !ReferenceEquals (selectedActor, null) && bActionUI == false) { //if clicked on other character
+				selectedActor = null;
+			} else if (selectedActor.GetActorState () == ActorState.Idle) {
 				selectedActor.CharacterDeselected ();
 				selectedActor = actor;
 				selectedActor.CharacterSelected ();
-			} else */
+			}
+
+			/*
 			if (ReferenceEquals (actor, selectedActor)) { //if clicked on same character
 				selectedActor.CharacterDeselected ();
 				selectedActor = null;
@@ -38,8 +45,7 @@ public class InputHandler
 				}
 				selectedActor = actor;
 				selectedActor.CharacterSelected ();
-			}
-				
+			} 
 			//@TODO move this to the ActionUI
 			/*
 			if (!ReferenceEquals (actor, null)) {
@@ -50,7 +56,7 @@ public class InputHandler
 
 		if (Input.GetKeyUp (KeyCode.Escape)) {
 			PauseMenuCommand pauseMenuCommand = new PauseMenuCommand ();
-			return pauseMenuCommand;
+			pauseMenuCommand.Execute ();
 		}
 
 		if (!ReferenceEquals (selectedActor, null)) {
@@ -58,8 +64,6 @@ public class InputHandler
 		} else {
 			bActionUI = false;
 		}
-
-		return null;
 	}
 
 	public GameActor GetSelectedActor ()
@@ -78,6 +82,10 @@ public class InputHandler
 
 	public Command ButtonAttack ()
 	{
+		if (bActionUI) {
+			AttackCommand command = new AttackCommand (selectedActor);
+			return command;
+		}
 		return null;
 	}
 

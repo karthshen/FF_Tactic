@@ -4,14 +4,6 @@ using UnityEngine;
 
 public abstract class GameActor : MonoBehaviour
 {
-	protected enum State
-	{
-		Move,
-		Attack,
-		Idle,
-		Death
-	}
-
 	protected float maxHealth;
 	protected float maxMana;
 	protected float health;
@@ -19,7 +11,7 @@ public abstract class GameActor : MonoBehaviour
 
 	protected int coins;
 
-	protected State currentState;
+	protected ActorState currentState;
 	// Use this for initialization
 	public abstract void Move ();
 
@@ -64,5 +56,9 @@ public abstract class GameActor : MonoBehaviour
 	{
 		return this.coins;
 	}
-		
+
+	public ActorState GetActorState ()
+	{
+		return this.currentState;
+	}
 }

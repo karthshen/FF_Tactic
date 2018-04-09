@@ -82,15 +82,13 @@ public class Tile : MonoBehaviour
 		distance = 0;
 	}
 
-	public void Find_Adj (float jumpHeight)
+	public void Find_Adj (float jumpHeight, ActorState state)
 	{
 		Reset ();
-
-		CheckTile (Vector3.forward, jumpHeight);
-		CheckTile (-Vector3.forward, jumpHeight);
-		CheckTile (Vector3.right, jumpHeight);
-		CheckTile (Vector3.left, jumpHeight);
-
+		CheckTile (Vector3.forward, jumpHeight, state);
+		CheckTile (-Vector3.forward, jumpHeight, state);
+		CheckTile (Vector3.right, jumpHeight, state);
+		CheckTile (Vector3.left, jumpHeight, state);
 	}
 
 	public GameObject GetObjectOnTile ()
@@ -106,7 +104,7 @@ public class Tile : MonoBehaviour
 		return null;
 	}
 
-	private void CheckTile (Vector3 direction, float jumpHeight)
+	private void CheckTile (Vector3 direction, float jumpHeight, ActorState state)
 	{
 
 		Vector3 halfExtent = new Vector3 (0.25f, (jumpHeight), 0.25f);
@@ -115,9 +113,16 @@ public class Tile : MonoBehaviour
 
 		foreach (Collider obj in colliders) {
 			Tile tile = obj.GetComponentInParent<Tile> ();
-			if (tile && tile.bWalkable && !tile.bHasEntity && tile.CheckSurfaceTile ()) {
-				//@TODO if tile is occupied by enemy, make it not walkable
-				adj_List.Add (tile);
+			if (state == ActorState.Move) {
+				if (tile && tile.bWalkable && !tile.bHasEntity && tile.CheckSurfaceTile ()) {
+					//@TODO if tile is occupied by enemy, make it not walkable
+					adj_List.Add (tile);
+				}
+			} else if (state == ActorState.Attack) {
+				if (tile && tile.CheckSurfaceTile ()) {
+					//@TODO if tile is occupied by enemy, make it not walkable
+					adj_List.Add (tile);
+				}
 			}
 		}
 	}

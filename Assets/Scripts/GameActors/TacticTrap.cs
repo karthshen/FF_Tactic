@@ -16,7 +16,7 @@ public class TacticTrap : GameActor
 	// Use this for initialization
 	void Start ()
 	{
-		this.currentState = State.Attack;
+		this.currentState = ActorState.Attack;
 		animat = GetComponent<Animation> ();
 		halfHeight = GetComponentInChildren<MeshRenderer> ().bounds.extents.y;
 	}

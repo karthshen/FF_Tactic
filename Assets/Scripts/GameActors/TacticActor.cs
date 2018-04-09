@@ -22,7 +22,10 @@ public abstract class TacticActor : GameActor
 	private float jumpHeight = 1f;
 	[SerializeField]
 	private float moveSpeed = 1f;
-
+	[SerializeField]
+	private int attackRange = 1;
+	[SerializeField]
+	private float attackDamage = 30;
 	private bool bIsMoving = false;
 
 	private Animation animat;
@@ -36,7 +39,7 @@ public abstract class TacticActor : GameActor
 	{
 		gameboard = GameObject.FindGameObjectsWithTag ("Tile");
 		halfHeight = GetComponentInChildren<MeshRenderer> ().bounds.extents.y;
-		this.currentState = State.Idle;
+		this.currentState = ActorState.Idle;
 		this.ResetTiles ();
 
 		this.animat = GetComponent<Animation> ();
@@ -64,19 +67,19 @@ public abstract class TacticActor : GameActor
 
 	public override void CharacterSelected ()
 	{
-		this.currentState = State.Move;
+		this.currentState = ActorState.Move;
 	}
 
 	public override void CharacterDeselected ()
 	{
-		this.currentState = State.Idle;
+		this.currentState = ActorState.Idle;
 		this.ResetTiles ();
 	}
 
 	protected override void Death ()
 	{
 		this.ResetTiles ();
-		this.currentState = State.Death;
+		this.currentState = ActorState.Death;
 		this.animat.Play ("Death");
 	}
 
@@ -84,10 +87,12 @@ public abstract class TacticActor : GameActor
 	{
 		if (animat != null) {
 
-			if (this.currentState == State.Idle) {
+			if (this.currentState == ActorState.Idle) {
 				animat.Play ("Idle");
-			} else if (this.currentState == State.Move) {
+			} else if (this.currentState == ActorState.Move) {
 				animat.Play ("RunFront");
+			} else if (this.currentState == ActorState.Attack) {
+				animat.Play ("AttackMelee1");
 			}
 		}
 	}
@@ -97,12 +102,12 @@ public abstract class TacticActor : GameActor
 		foreach (GameObject tile in gameboard) {
 			Tile t = tile.GetComponent<Tile> ();
 			if (t) {
-				t.Find_Adj (this.jumpHeight);
+				t.Find_Adj (this.jumpHeight, this.currentState);
 			}
 		}
 	}
 
-	public void FindSelectableTiles ()
+	public void FindSelectableMoveTiles ()
 	{
 		ComputeAdjList ();
 		GetCurrentTile ();
@@ -121,6 +126,36 @@ public abstract class TacticActor : GameActor
 			selectableTiles.Add (t);
 			//if the tile interested is in the move count
 			if (t.distance < this.move) {
+				foreach (Tile tile in t.adj_List) {
+					if (!tile.visited) {
+						tile.parent = t;
+						tile.visited = true;
+						tile.distance = tile.parent.distance + 1;
+						queue.Enqueue (tile);
+					}
+				}
+			}
+		}
+	}
+
+	public void FindSelectableAttackTiles ()
+	{
+		ComputeAdjList ();
+		GetCurrentTile ();
+		Queue<Tile> queue = new Queue<Tile> ();
+
+		//BFS
+		queue.Enqueue (currentTile);
+		currentTile.visited = true;
+		currentTile.SetHasEntity (true);
+
+		while (queue.Count > 0) {
+			Tile t = queue.Dequeue ();
+
+			t.bSelectable = true;
+			selectableTiles.Add (t);
+			//if the tile interested is in the move count
+			if (t.distance < this.attackRange) {
 				foreach (Tile tile in t.adj_List) {
 					if (!tile.visited) {
 						tile.parent = t;
@@ -168,7 +203,7 @@ public abstract class TacticActor : GameActor
 	{
 		if (path.Count > 0) {
 			//move
-			this.currentState = State.Move;
+			this.currentState = ActorState.Move;
 			Tile t = path.Peek ();
 			Vector3 target = t.transform.position;
 
@@ -200,7 +235,8 @@ public abstract class TacticActor : GameActor
 		this.SetIsMoving (false);
 		ResetTiles ();
 		ResetXRotation ();
-		this.currentState = State.Idle;
+		this.currentState = ActorState.Idle;
+		//this.CharacterDeselected ();
 		//DetectTrap (); Removing because taking excessive damage
 	}
 
@@ -213,7 +249,7 @@ public abstract class TacticActor : GameActor
 			TacticTrap trap = collider.gameObject.GetComponentInParent<TacticTrap> ();
 			if (trap) {
 				this.TakeDamage (trap.GetAttackDamage ());
-				if (this.currentState == State.Death)
+				if (this.currentState == ActorState.Death)
 					return;
 				this.animat.Play ("Hit");
 			}
@@ -264,6 +300,11 @@ public abstract class TacticActor : GameActor
 	public int GetMove ()
 	{
 		return move; 
+	}
+
+	public float GetAttackDamage ()
+	{
+		return this.attackDamage;
 	}
 
 	public float GetJumpHeight ()

@@ -15,14 +15,24 @@ public class Minion : TacticActor
 
 	public override void Move ()
 	{
-		if (this.currentState == State.Death) {
+		this.currentState = ActorState.Move;
+		if (this.currentState == ActorState.Death) {
 			return;
 		}
 
-		this.FindSelectableTiles ();
+		this.FindSelectableMoveTiles ();
 		bMinionSelected = true;
+	}
 
-		this.currentState = State.Move;
+	public override void Attack ()
+	{
+		//Combat logic
+		this.currentState = ActorState.Attack;
+		if (this.currentState == ActorState.Death) {
+			return;
+		}
+		this.FindSelectableAttackTiles ();
+		bMinionSelected = true;
 	}
 
 	public void Update ()
@@ -30,7 +40,7 @@ public class Minion : TacticActor
 		this.TacticActorUpdate ();
 
 		Tile t = null;
-		if (bMinionSelected && currentState == State.Move) {
+		if (bMinionSelected && currentState == ActorState.Move) {
 
 			if (CheckMouseClick ("Tile") && GetIsMoving () == false) {
 				RaycastHit hit = GetMouseHit ();
@@ -56,22 +66,24 @@ public class Minion : TacticActor
 				if (pickup && DetectPickup (pickup.GetComponent<Collider> ())) {
 					pickup.Pickup (this);
 					this.ResetTiles ();
-					this.currentState = State.Idle;
+					this.currentState = ActorState.Idle;
 					bMinionSelected = false;
 				}
 			}
 		}
 
-		if (bMinionSelected && currentState == State.Attack) {
-			
+		if (bMinionSelected && currentState == ActorState.Attack) {
+			if (CheckMouseClick ("Minion")) {
+				RaycastHit hit = GetMouseHit ();
+				GameActor targetActor = hit.collider.GetComponentInParent<GameActor> ();
+				t = GetTargetTile (targetActor.gameObject);
+				if (targetActor != null && t.bSelectable) {
+					t.bTargetTile = true;
+					targetActor.TakeDamage (this.GetAttackDamage ());
+				}
+			}
 		}
 
-	}
-
-	public override void Attack ()
-	{
-		//Combat logic
-		this.currentState = State.Attack;
 	}
 
 	private bool CheckMouseClick (string hitTag)

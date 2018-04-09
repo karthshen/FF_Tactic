@@ -14,6 +14,6 @@ public class AttackCommand : Command
 
 	public override void Execute ()
 	{
-		actor.Move ();
+		actor.Attack ();
 	}
 }
