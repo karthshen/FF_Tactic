@@ -29,7 +29,9 @@ public class InputHandler
 			} else if (ReferenceEquals (actor, selectedActor)) {
 				selectedActor.CharacterDeselected ();
 				selectedActor = null;
-			} else if (selectedActor.GetActorState () == ActorState.Idle) {
+			} else if (selectedActor.GetActorState () == ActorState.Idle
+			           && selectedActor.bHasMoved == false && selectedActor.bHasActed == false) {
+
 				selectedActor.CharacterDeselected ();
 				selectedActor = actor;
 				selectedActor.CharacterSelected ();
@@ -96,6 +98,16 @@ public class InputHandler
 
 	public Command ButtonSpells ()
 	{
+		return null;
+	}
+
+	public Command ButtonEndTurn ()
+	{
+		if (bActionUI) {
+			EndTurnCommand command = new EndTurnCommand (selectedActor);
+			this.selectedActor = null;
+			return command;
+		}
 		return null;
 	}
 }

@@ -48,6 +48,11 @@ public class TacticTrap : GameActor
 		
 	}
 
+	public override void EndTurn ()
+	{
+		
+	}
+
 	public int GetAttackDamage ()
 	{
 		return this.attackDmg;

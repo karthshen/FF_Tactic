@@ -98,4 +98,12 @@ public class Controller : MonoBehaviour
 		if (!ReferenceEquals (spellCommand, null))
 			spellCommand.Execute ();
 	}
+
+	public void ButtonEndTurn ()
+	{
+		Command endTurnCommand = this.inputHandler.ButtonEndTurn ();
+		if (!ReferenceEquals (endTurnCommand, null)) {
+			endTurnCommand.Execute ();
+		}
+	}
 }

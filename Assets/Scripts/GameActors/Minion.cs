@@ -15,24 +15,29 @@ public class Minion : TacticActor
 
 	public override void Move ()
 	{
-		this.currentState = ActorState.Move;
-		if (this.currentState == ActorState.Death) {
-			return;
-		}
+		if (this.bHasMoved == false) {
+			this.currentState = ActorState.Move;
+			if (this.currentState == ActorState.Death) {
+				return;
+			}
 
-		this.FindSelectableMoveTiles ();
-		bMinionSelected = true;
+			this.FindSelectableMoveTiles ();
+			bMinionSelected = true;
+			bHasMoved = true;
+		}
 	}
 
 	public override void Attack ()
 	{
 		//Combat logic
-		this.currentState = ActorState.Attack;
-		if (this.currentState == ActorState.Death) {
-			return;
+		if (this.bHasActed == false) {
+			this.currentState = ActorState.Attack;
+			if (this.currentState == ActorState.Death) {
+				return;
+			}
+			this.FindSelectableAttackTiles ();
+			bMinionSelected = true;
 		}
-		this.FindSelectableAttackTiles ();
-		bMinionSelected = true;
 	}
 
 	public void Update ()
@@ -72,18 +77,31 @@ public class Minion : TacticActor
 			}
 		}
 
-		if (bMinionSelected && currentState == ActorState.Attack) {
+		if (bMinionSelected && currentState == ActorState.Attack && bHasActed == false) {
 			if (CheckMouseClick ("Minion")) {
 				RaycastHit hit = GetMouseHit ();
 				GameActor targetActor = hit.collider.GetComponentInParent<GameActor> ();
 				t = GetTargetTile (targetActor.gameObject);
 				if (targetActor != null && t.bSelectable) {
 					t.bTargetTile = true;
+					RotateTowardTarget (targetActor);
 					targetActor.TakeDamage (this.GetAttackDamage ());
+					bHasActed = true;
+					this.PlayAttackAnimation ();
+					this.ResetTiles ();
 				}
 			}
 		}
 
+	}
+
+	private void RotateTowardTarget (GameActor actor)
+	{
+		Vector3 targetDir = actor.transform.position - this.transform.position;
+		float step = 2000 * Time.deltaTime;
+		Vector3 newDir = Vector3.RotateTowards (this.transform.forward, targetDir, step, 0.0f);
+
+		transform.rotation = Quaternion.LookRotation (newDir);
 	}
 
 	private bool CheckMouseClick (string hitTag)

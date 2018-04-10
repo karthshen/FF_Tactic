@@ -65,6 +65,14 @@ public abstract class TacticActor : GameActor
 		
 	}
 
+	public override void EndTurn ()
+	{
+		this.ResetState ();
+		this.CharacterDeselected ();
+		this.ResetTiles ();
+		this.ResetXRotation ();
+	}
+
 	public override void CharacterSelected ()
 	{
 		this.currentState = ActorState.Move;
@@ -91,8 +99,6 @@ public abstract class TacticActor : GameActor
 				animat.Play ("Idle");
 			} else if (this.currentState == ActorState.Move) {
 				animat.Play ("RunFront");
-			} else if (this.currentState == ActorState.Attack) {
-				animat.Play ("AttackMelee1");
 			}
 		}
 	}
@@ -339,7 +345,12 @@ public abstract class TacticActor : GameActor
 
 		//Add scenerios for potions later@TODO
 	}
-		
+
+	protected void PlayAttackAnimation ()
+	{
+		animat ["AttackMelee1"].wrapMode = WrapMode.Once;
+		animat.Play ("AttackMelee1");
+	}
 }
 
 

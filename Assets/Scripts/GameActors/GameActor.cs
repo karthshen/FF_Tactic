@@ -8,14 +8,18 @@ public abstract class GameActor : MonoBehaviour
 	protected float maxMana;
 	protected float health;
 	protected float mana;
-
 	protected int coins;
 
 	protected ActorState currentState;
+
+	public bool bHasMoved = false;
+	public bool bHasActed = false;
 	// Use this for initialization
 	public abstract void Move ();
 
 	public abstract void Attack ();
+
+	public abstract void EndTurn ();
 
 	public abstract void CharacterSelected ();
 
@@ -60,5 +64,12 @@ public abstract class GameActor : MonoBehaviour
 	public ActorState GetActorState ()
 	{
 		return this.currentState;
+	}
+
+	public void ResetState ()
+	{
+		this.currentState = ActorState.Idle;
+		this.bHasActed = false;
+		this.bHasMoved = false;
 	}
 }
