@@ -21,7 +21,10 @@ public class TacticTrap : GameActor
 		halfHeight = GetComponentInChildren<MeshRenderer> ().bounds.extents.y;
 	}
 
-
+	public override float TakeDamage (float damage)
+	{
+		return 0f;
+	}
 
 	public override void Move ()
 	{

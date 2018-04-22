@@ -23,6 +23,8 @@ public class InputHandler
 			//1. If nothing is selected, select the clicked minion
 			//2. If same minion is clicked, deselect the minion
 			//3. If another minion clicked while current is idle, switch minion.
+			//UPDATE: The GameActor selection is now handled by TurnManager
+			/*
 			if (selectedActor == null && !ReferenceEquals (actor, null)) {
 				selectedActor = actor;
 				selectedActor.CharacterSelected ();
@@ -35,25 +37,8 @@ public class InputHandler
 				selectedActor.CharacterDeselected ();
 				selectedActor = actor;
 				selectedActor.CharacterSelected ();
-			}
-
-			/*
-			if (ReferenceEquals (actor, selectedActor)) { //if clicked on same character
-				selectedActor.CharacterDeselected ();
-				selectedActor = null;
-			} else if (!ReferenceEquals (actor, null)) { //if clicked on a new character
-				if (selectedActor != null) {
-					selectedActor.CharacterDeselected ();
-				}
-				selectedActor = actor;
-				selectedActor.CharacterSelected ();
-			} 
-			//@TODO move this to the ActionUI
-			/*
-			if (!ReferenceEquals (actor, null)) {
-				MoveCommand command = new MoveCommand (actor);
-				return command;
 			}*/
+				
 		}
 
 		if (Input.GetKeyUp (KeyCode.Escape)) {
@@ -109,5 +94,10 @@ public class InputHandler
 			return command;
 		}
 		return null;
+	}
+
+	public void SetGameActor (GameActor actor)
+	{
+		this.selectedActor = actor;
 	}
 }

@@ -28,6 +28,8 @@ public abstract class TacticActor : GameActor
 	private float attackDamage = 30;
 	private bool bIsMoving = false;
 
+	private float countdown = 0;
+
 	private Animation animat;
 
 	Vector3 velocity = new Vector3 ();
@@ -93,12 +95,15 @@ public abstract class TacticActor : GameActor
 
 	public void TacticActorUpdate ()
 	{
-		if (animat != null) {
+		countdown -= Time.deltaTime;
+		if (countdown <= 0) {
+			if (animat != null) {
 
-			if (this.currentState == ActorState.Idle) {
-				animat.Play ("Idle");
-			} else if (this.currentState == ActorState.Move) {
-				animat.Play ("RunFront");
+				if (this.currentState == ActorState.Idle) {
+					animat.Play ("Idle");
+				} else if (this.currentState == ActorState.Move) {
+					animat.Play ("RunFront");
+				}
 			}
 		}
 	}
@@ -209,6 +214,7 @@ public abstract class TacticActor : GameActor
 	{
 		if (path.Count > 0) {
 			//move
+			bHasMoved = true;
 			this.currentState = ActorState.Move;
 			Tile t = path.Peek ();
 			Vector3 target = t.transform.position;
@@ -257,9 +263,22 @@ public abstract class TacticActor : GameActor
 				this.TakeDamage (trap.GetAttackDamage ());
 				if (this.currentState == ActorState.Death)
 					return;
-				this.animat.Play ("Hit");
+				
 			}
 		}
+	}
+
+	public override float TakeDamage (float damage)
+	{
+		this.health -= damage;
+		if (this.health <= 0) {
+			this.Death ();
+		}
+		//this.animat.Play ("Idle");
+		this.animat.Play ("Idle");
+		this.animat.PlayQueued ("Hit");
+		countdown = 1.0f;
+		return this.health;
 	}
 
 	protected bool DetectPickup (Collider pickupCollider)
@@ -339,8 +358,9 @@ public abstract class TacticActor : GameActor
 	public void addPickupItem (TacticPickup pickup)
 	{
 		if (pickup.GetPickupType () == TacticPickup.PickupType.Chest) {
-			this.coins += ((TreasureChest)pickup).getCoins ();
-			Debug.Log ("Coin Collected: " + ((TreasureChest)pickup).getCoins () + " Total Coin: " + coins);
+			this.health += ((TreasureChest)pickup).getCoins ();
+			if (health > this.maxHealth)
+				health = this.maxHealth;
 		}
 
 		//Add scenerios for potions later@TODO
@@ -349,7 +369,11 @@ public abstract class TacticActor : GameActor
 	protected void PlayAttackAnimation ()
 	{
 		animat ["AttackMelee1"].wrapMode = WrapMode.Once;
-		animat.Play ("AttackMelee1");
+		if (this.gameObject.name.Contains ("Warrior")) {
+			animat.Play ("AttackMelee1");
+		} else if (this.gameObject.name.Contains ("Archer")) {
+			animat.Play ("AttackRange1");
+		}
 	}
 }
 

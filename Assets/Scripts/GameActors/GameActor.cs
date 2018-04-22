@@ -14,6 +14,9 @@ public abstract class GameActor : MonoBehaviour
 
 	public bool bHasMoved = false;
 	public bool bHasActed = false;
+
+	//If the Actor is NOT selected and acted this turn
+	public bool bTurnReady = true;
 	// Use this for initialization
 	public abstract void Move ();
 
@@ -37,15 +40,7 @@ public abstract class GameActor : MonoBehaviour
 		return mana / maxMana;
 	}
 
-	public float TakeDamage (float damage)
-	{
-		this.health -= damage;
-		if (this.health <= 0) {
-			this.Death ();
-		}
-
-		return this.health;
-	}
+	public abstract float TakeDamage (float damage);
 
 	public float HealthDamage (float heal)
 	{

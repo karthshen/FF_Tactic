@@ -6,9 +6,12 @@ using UnityEngine.UI;
 
 public class Controller : MonoBehaviour
 {
+	public SelectorCursor cursor;
 
 	private InputHandler inputHandler;
 	private GameActor selectedActor;
+	private TurnManager turnManager;
+
 	private float loseCountDown = 2.0f;
 
 	private int coinCount;
@@ -19,16 +22,37 @@ public class Controller : MonoBehaviour
 	{
 		this.inputHandler = new InputHandler ();
 		this.selectedActor = inputHandler.GetSelectedActor ();
-
+		this.turnManager = new TurnManager ();
 		//coinCount = 0;
 		//countText.text = coinCount.ToString ();
+		this.selectedActor = turnManager.GetCurrentMinion ();
+		this.inputHandler.SetGameActor (selectedActor);
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
 		this.inputHandler.HandleInput ();
+		//this.selectedActor = turnManager.GetCurrentMinion ();
+
+		if (this.selectedActor) {
+			cursor.CursorDisplay ();
+			cursor.UpdatePosition (selectedActor.transform.position);
+		} else {
+			cursor.CursorDisappear ();
+		}
+
+		/*
+		this.inputHandler.HandleInput ();
 		this.selectedActor = inputHandler.GetSelectedActor ();
+
+		if (this.selectedActor) {
+			cursor.CursorDisplay ();
+			cursor.UpdatePosition (selectedActor.transform.position);
+		} else {
+			cursor.CursorDisappear ();
+		}
+		*/
 
 		//UpdateScore ();
 		/* Victory/Lose condition - OLD
@@ -105,5 +129,9 @@ public class Controller : MonoBehaviour
 		if (!ReferenceEquals (endTurnCommand, null)) {
 			endTurnCommand.Execute ();
 		}
+
+		this.selectedActor = turnManager.GetCurrentMinion ();
+		this.inputHandler.SetGameActor (selectedActor);
+		this.turnManager.CheckTurnOver ();
 	}
 }

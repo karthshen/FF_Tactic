@@ -23,7 +23,6 @@ public class Minion : TacticActor
 
 			this.FindSelectableMoveTiles ();
 			bMinionSelected = true;
-			bHasMoved = true;
 		}
 	}
 

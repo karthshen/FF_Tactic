@@ -9,7 +9,16 @@ public class TacticCamera : MonoBehaviour
 	[SerializeField] private float rotation = 10;
 	[SerializeField] private float rotationMax = 3;
 
+	public SelectorCursor cursor;
+
+	private Camera camera;
 	private int rotateCount = 0;
+	private bool cameraStick = true;
+
+	void Start ()
+	{
+		camera = this.GetComponentInChildren<Camera> ();
+	}
 
 	private void Update ()
 	{
@@ -21,12 +30,23 @@ public class TacticCamera : MonoBehaviour
 			this.CameraLeft ();
 		if (Input.GetButton ("CameraRight"))
 			this.CameraRight ();
+		if (Input.GetKeyUp (KeyCode.LeftShift))
+			this.cameraStick = !cameraStick;
 
-		if (Input.GetButtonDown ("CameraRotateLeft"))
-			this.RotateLeft ();
-		if (Input.GetButtonDown ("CameraRotateRight"))
-			this.RotateRight ();
+		if (Input.GetButton ("CameraRotateLeft"))
+			this.ZoomIn ();
+		if (Input.GetButton ("CameraRotateRight"))
+			this.ZoomOut ();
 		//CameraMovement (x, z);
+		if (cursor && cursor.gameObject.activeSelf) {
+			Vector3 newPosition = cursor.gameObject.transform.position;
+			newPosition.y = this.transform.position.y;
+			//This part is magic number
+			newPosition.x += 10;
+			newPosition.z += 5;
+			if (cameraStick)
+				this.transform.position = Vector3.Lerp (this.transform.position, newPosition, 0.2f);
+		}
 	}
 
 	private void CameraRight ()
@@ -50,20 +70,19 @@ public class TacticCamera : MonoBehaviour
 	}
 
 	//Rotate Left
-	public void RotateLeft ()
+	public void ZoomIn ()
 	{
-		if (rotateCount > -rotationMax) {
-			rotateCount--;
-			this.transform.Rotate (Vector3.up, -rotation, Space.World);
-		}
+		
+
+		//Use this function for zoom in and zoom out instead
+		if (camera.orthographicSize > 4)
+			camera.orthographicSize -= Time.deltaTime;
 	}
 
 	//Rotate Right
-	public void RotateRight ()
+	public void ZoomOut ()
 	{
-		if (rotateCount < rotationMax) {
-			rotateCount++;
-			this.transform.Rotate (Vector3.up, rotation, Space.World);
-		}
+		if (camera.orthographicSize < 10)
+			camera.orthographicSize += Time.deltaTime;
 	}
 }
