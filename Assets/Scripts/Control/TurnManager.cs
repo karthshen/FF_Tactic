@@ -32,7 +32,7 @@ public class TurnManager : MonoBehaviour
 	public GameActor GetCurrentMinion ()
 	{
 		int index = Random.Range (0, allMinion.Count);
-		if (allMinion [index] && allMinion [index].bTurnReady) {
+		if (allMinion [index] != null && allMinion [index].bTurnReady) {
 			allMinion [index].bTurnReady = false;
 			return allMinion [index];
 		} else {
@@ -43,7 +43,7 @@ public class TurnManager : MonoBehaviour
 	public void CheckTurnOver ()
 	{
 		foreach (GameActor minion in allMinion) {
-			if (minion.bTurnReady == true)
+			if (minion != null && minion.bTurnReady == true)
 				return;
 		}
 
@@ -54,5 +54,25 @@ public class TurnManager : MonoBehaviour
 
 		turnCount++;
 		Debug.Log ("Current Turn: " + turnCount);
+	}
+
+	public bool CheckOrcVictory ()
+	{
+		foreach (GameActor minion in human) {
+			if (minion != null)
+				return false;
+		}
+
+		return true;
+	}
+
+	public bool CheckHumanVictory ()
+	{
+		foreach (GameActor minion in orc) {
+			if (minion != null)
+				return false;
+		}
+
+		return true;
 	}
 }

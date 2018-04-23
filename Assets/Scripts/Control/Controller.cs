@@ -12,7 +12,7 @@ public class Controller : MonoBehaviour
 	private GameActor selectedActor;
 	private TurnManager turnManager;
 
-	private float loseCountDown = 2.0f;
+	//private float loseCountDown = 2.0f;
 
 	private int coinCount;
 	public Text countText;
@@ -130,8 +130,13 @@ public class Controller : MonoBehaviour
 			endTurnCommand.Execute ();
 		}
 
+		this.turnManager.CheckTurnOver ();
 		this.selectedActor = turnManager.GetCurrentMinion ();
 		this.inputHandler.SetGameActor (selectedActor);
-		this.turnManager.CheckTurnOver ();
+
+		if (turnManager.CheckHumanVictory () || turnManager.CheckOrcVictory ()) {
+			Command command = new VictoryCommand ();
+			command.Execute ();
+		}
 	}
 }

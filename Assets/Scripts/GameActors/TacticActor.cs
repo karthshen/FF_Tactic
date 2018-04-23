@@ -29,6 +29,7 @@ public abstract class TacticActor : GameActor
 	private bool bIsMoving = false;
 
 	private float countdown = 0;
+	private float deathCountDown = 3.0f;
 
 	private Animation animat;
 
@@ -104,6 +105,13 @@ public abstract class TacticActor : GameActor
 				} else if (this.currentState == ActorState.Move) {
 					animat.Play ("RunFront");
 				}
+			}
+		}
+
+		if (this.currentState == ActorState.Death) {
+			deathCountDown -= Time.deltaTime;
+			if (deathCountDown <= 0) {
+				Destroy (this.gameObject);
 			}
 		}
 	}
@@ -273,6 +281,7 @@ public abstract class TacticActor : GameActor
 		this.health -= damage;
 		if (this.health <= 0) {
 			this.Death ();
+			return this.health;
 		}
 		//this.animat.Play ("Idle");
 		this.animat.Play ("Idle");
