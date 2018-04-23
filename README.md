@@ -1,6 +1,11 @@
 # FF_Tactic
 Turn Based RPG Tactic game (Demo), inspired by the classic Final Fantasy Tactic on Gameboy.
 
+## Install Instructions
+1. Do ```git clone https://github.com/karthshen/FF_Tactic/``` to your local drive.
+2. Once the project is fully downloaded, open 'Build' directory, and click on Tactic.exe to play the game.
+3. This project is powered by Unity engine.
+
 ## Game Objective
 - Human vs Orc, one side must slay another.
 
