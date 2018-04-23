@@ -16,14 +16,27 @@ public class TacticTrap : GameActor
 	// Use this for initialization
 	void Start ()
 	{
-		this.currentState = State.Attack;
+		this.currentState = ActorState.Attack;
 		animat = GetComponent<Animation> ();
 		halfHeight = GetComponentInChildren<MeshRenderer> ().bounds.extents.y;
 	}
 
-
+	public override float TakeDamage (float damage)
+	{
+		return 0f;
+	}
 
 	public override void Move ()
+	{
+		
+	}
+
+	public override void CharacterSelected ()
+	{
+		
+	}
+
+	public override void CharacterDeselected ()
 	{
 		
 	}
@@ -34,6 +47,11 @@ public class TacticTrap : GameActor
 	}
 
 	protected override void Death ()
+	{
+		
+	}
+
+	public override void EndTurn ()
 	{
 		
 	}

@@ -4,26 +4,31 @@ using UnityEngine;
 
 public abstract class GameActor : MonoBehaviour
 {
-	protected enum State
-	{
-		Move,
-		Attack,
-		Idle,
-		Death
-	}
-
 	protected float maxHealth;
 	protected float maxMana;
 	protected float health;
 	protected float mana;
-
 	protected int coins;
 
-	protected State currentState;
+	protected ActorState currentState;
+
+	public bool bHasMoved = false;
+	public bool bHasActed = false;
+
+	//If the Actor is NOT selected and acted this turn
+	public bool bTurnReady = true;
 	// Use this for initialization
 	public abstract void Move ();
 
 	public abstract void Attack ();
+
+	public abstract void EndTurn ();
+
+	public abstract void CharacterSelected ();
+
+	public abstract void CharacterDeselected ();
+
+	protected abstract void Death ();
 
 	public float GetHealthPercentage ()
 	{
@@ -35,15 +40,7 @@ public abstract class GameActor : MonoBehaviour
 		return mana / maxMana;
 	}
 
-	public float TakeDamage (float damage)
-	{
-		this.health -= damage;
-		if (this.health <= 0) {
-			this.Death ();
-		}
-
-		return this.health;
-	}
+	public abstract float TakeDamage (float damage);
 
 	public float HealthDamage (float heal)
 	{
@@ -54,10 +51,20 @@ public abstract class GameActor : MonoBehaviour
 		return this.health;
 	}
 
-	protected abstract void Death ();
-
 	public int GetCoins ()
 	{
 		return this.coins;
+	}
+
+	public ActorState GetActorState ()
+	{
+		return this.currentState;
+	}
+
+	public void ResetState ()
+	{
+		this.currentState = ActorState.Idle;
+		this.bHasActed = false;
+		this.bHasMoved = false;
 	}
 }

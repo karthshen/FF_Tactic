@@ -15,19 +15,27 @@ public class Minion : TacticActor
 
 	public override void Move ()
 	{
-		if (this.currentState == State.Death) {
-			return;
-		}
+		if (this.bHasMoved == false) {
+			this.currentState = ActorState.Move;
+			if (this.currentState == ActorState.Death) {
+				return;
+			}
 
-		if (bMinionSelected == true) {
-			this.ResetTiles ();
-			bMinionSelected = false;
-		} else {
-
-			this.FindSelectableTiles ();
+			this.FindSelectableMoveTiles ();
 			bMinionSelected = true;
+		}
+	}
 
-			this.currentState = State.Move;
+	public override void Attack ()
+	{
+		//Combat logic
+		if (this.bHasActed == false) {
+			this.currentState = ActorState.Attack;
+			if (this.currentState == ActorState.Death) {
+				return;
+			}
+			this.FindSelectableAttackTiles ();
+			bMinionSelected = true;
 		}
 	}
 
@@ -36,7 +44,7 @@ public class Minion : TacticActor
 		this.TacticActorUpdate ();
 
 		Tile t = null;
-		if (bMinionSelected && currentState == State.Move) {
+		if (bMinionSelected && currentState == ActorState.Move) {
 
 			if (CheckMouseClick ("Tile") && GetIsMoving () == false) {
 				RaycastHit hit = GetMouseHit ();
@@ -62,22 +70,37 @@ public class Minion : TacticActor
 				if (pickup && DetectPickup (pickup.GetComponent<Collider> ())) {
 					pickup.Pickup (this);
 					this.ResetTiles ();
-					this.currentState = State.Idle;
+					this.currentState = ActorState.Idle;
 					bMinionSelected = false;
 				}
 			}
 		}
 
-		if (bMinionSelected && currentState == State.Attack) {
-			
+		if (bMinionSelected && currentState == ActorState.Attack && bHasActed == false) {
+			if (CheckMouseClick ("Minion")) {
+				RaycastHit hit = GetMouseHit ();
+				GameActor targetActor = hit.collider.GetComponentInParent<GameActor> ();
+				t = GetTargetTile (targetActor.gameObject);
+				if (targetActor != null && t.bSelectable) {
+					t.bTargetTile = true;
+					RotateTowardTarget (targetActor);
+					targetActor.TakeDamage (this.GetAttackDamage ());
+					bHasActed = true;
+					this.PlayAttackAnimation ();
+					this.ResetTiles ();
+				}
+			}
 		}
 
 	}
 
-	public override void Attack ()
+	private void RotateTowardTarget (GameActor actor)
 	{
-		//Combat logic
-		this.currentState = State.Attack;
+		Vector3 targetDir = actor.transform.position - this.transform.position;
+		float step = 2000 * Time.deltaTime;
+		Vector3 newDir = Vector3.RotateTowards (this.transform.forward, targetDir, step, 0.0f);
+
+		transform.rotation = Quaternion.LookRotation (newDir);
 	}
 
 	private bool CheckMouseClick (string hitTag)

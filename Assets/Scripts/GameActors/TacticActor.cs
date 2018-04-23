@@ -22,8 +22,14 @@ public abstract class TacticActor : GameActor
 	private float jumpHeight = 1f;
 	[SerializeField]
 	private float moveSpeed = 1f;
-
+	[SerializeField]
+	private int attackRange = 1;
+	[SerializeField]
+	private float attackDamage = 30;
 	private bool bIsMoving = false;
+
+	private float countdown = 0;
+	private float deathCountDown = 3.0f;
 
 	private Animation animat;
 
@@ -36,7 +42,7 @@ public abstract class TacticActor : GameActor
 	{
 		gameboard = GameObject.FindGameObjectsWithTag ("Tile");
 		halfHeight = GetComponentInChildren<MeshRenderer> ().bounds.extents.y;
-		this.currentState = State.Idle;
+		this.currentState = ActorState.Idle;
 		this.ResetTiles ();
 
 		this.animat = GetComponent<Animation> ();
@@ -62,14 +68,50 @@ public abstract class TacticActor : GameActor
 		
 	}
 
+	public override void EndTurn ()
+	{
+		this.ResetState ();
+		this.CharacterDeselected ();
+		this.ResetTiles ();
+		this.ResetXRotation ();
+	}
+
+	public override void CharacterSelected ()
+	{
+		this.currentState = ActorState.Move;
+	}
+
+	public override void CharacterDeselected ()
+	{
+		this.currentState = ActorState.Idle;
+		this.ResetTiles ();
+	}
+
+	protected override void Death ()
+	{
+		this.ResetTiles ();
+		this.currentState = ActorState.Death;
+		this.animat.Play ("Death");
+	}
+
 	public void TacticActorUpdate ()
 	{
-		if (animat != null) {
+		countdown -= Time.deltaTime;
+		if (countdown <= 0) {
+			if (animat != null) {
 
-			if (this.currentState == State.Idle) {
-				animat.Play ("Idle");
-			} else if (this.currentState == State.Move) {
-				animat.Play ("RunFront");
+				if (this.currentState == ActorState.Idle) {
+					animat.Play ("Idle");
+				} else if (this.currentState == ActorState.Move) {
+					animat.Play ("RunFront");
+				}
+			}
+		}
+
+		if (this.currentState == ActorState.Death) {
+			deathCountDown -= Time.deltaTime;
+			if (deathCountDown <= 0) {
+				Destroy (this.gameObject);
 			}
 		}
 	}
@@ -79,12 +121,12 @@ public abstract class TacticActor : GameActor
 		foreach (GameObject tile in gameboard) {
 			Tile t = tile.GetComponent<Tile> ();
 			if (t) {
-				t.Find_Adj (this.jumpHeight);
+				t.Find_Adj (this.jumpHeight, this.currentState);
 			}
 		}
 	}
 
-	public void FindSelectableTiles ()
+	public void FindSelectableMoveTiles ()
 	{
 		ComputeAdjList ();
 		GetCurrentTile ();
@@ -103,6 +145,36 @@ public abstract class TacticActor : GameActor
 			selectableTiles.Add (t);
 			//if the tile interested is in the move count
 			if (t.distance < this.move) {
+				foreach (Tile tile in t.adj_List) {
+					if (!tile.visited) {
+						tile.parent = t;
+						tile.visited = true;
+						tile.distance = tile.parent.distance + 1;
+						queue.Enqueue (tile);
+					}
+				}
+			}
+		}
+	}
+
+	public void FindSelectableAttackTiles ()
+	{
+		ComputeAdjList ();
+		GetCurrentTile ();
+		Queue<Tile> queue = new Queue<Tile> ();
+
+		//BFS
+		queue.Enqueue (currentTile);
+		currentTile.visited = true;
+		currentTile.SetHasEntity (true);
+
+		while (queue.Count > 0) {
+			Tile t = queue.Dequeue ();
+
+			t.bSelectable = true;
+			selectableTiles.Add (t);
+			//if the tile interested is in the move count
+			if (t.distance < this.attackRange) {
 				foreach (Tile tile in t.adj_List) {
 					if (!tile.visited) {
 						tile.parent = t;
@@ -150,7 +222,8 @@ public abstract class TacticActor : GameActor
 	{
 		if (path.Count > 0) {
 			//move
-			this.currentState = State.Move;
+			bHasMoved = true;
+			this.currentState = ActorState.Move;
 			Tile t = path.Peek ();
 			Vector3 target = t.transform.position;
 
@@ -182,7 +255,8 @@ public abstract class TacticActor : GameActor
 		this.SetIsMoving (false);
 		ResetTiles ();
 		ResetXRotation ();
-		this.currentState = State.Idle;
+		this.currentState = ActorState.Idle;
+		//this.CharacterDeselected ();
 		//DetectTrap (); Removing because taking excessive damage
 	}
 
@@ -195,11 +269,25 @@ public abstract class TacticActor : GameActor
 			TacticTrap trap = collider.gameObject.GetComponentInParent<TacticTrap> ();
 			if (trap) {
 				this.TakeDamage (trap.GetAttackDamage ());
-				if (this.currentState == State.Death)
+				if (this.currentState == ActorState.Death)
 					return;
-				this.animat.Play ("Hit");
+				
 			}
 		}
+	}
+
+	public override float TakeDamage (float damage)
+	{
+		this.health -= damage;
+		if (this.health <= 0) {
+			this.Death ();
+			return this.health;
+		}
+		//this.animat.Play ("Idle");
+		this.animat.Play ("Idle");
+		this.animat.PlayQueued ("Hit");
+		countdown = 1.0f;
+		return this.health;
 	}
 
 	protected bool DetectPickup (Collider pickupCollider)
@@ -248,6 +336,11 @@ public abstract class TacticActor : GameActor
 		return move; 
 	}
 
+	public float GetAttackDamage ()
+	{
+		return this.attackDamage;
+	}
+
 	public float GetJumpHeight ()
 	{
 		return jumpHeight;
@@ -271,23 +364,26 @@ public abstract class TacticActor : GameActor
 		return targetTile;
 	}
 
-	protected override void Death ()
-	{
-		this.ResetTiles ();
-		this.currentState = State.Death;
-		this.animat.Play ("Death");
-	}
-
 	public void addPickupItem (TacticPickup pickup)
 	{
 		if (pickup.GetPickupType () == TacticPickup.PickupType.Chest) {
-			this.coins += ((TreasureChest)pickup).getCoins ();
-			Debug.Log ("Coin Collected: " + ((TreasureChest)pickup).getCoins () + " Total Coin: " + coins);
+			this.health += ((TreasureChest)pickup).getCoins ();
+			if (health > this.maxHealth)
+				health = this.maxHealth;
 		}
 
 		//Add scenerios for potions later@TODO
 	}
-		
+
+	protected void PlayAttackAnimation ()
+	{
+		animat ["AttackMelee1"].wrapMode = WrapMode.Once;
+		if (this.gameObject.name.Contains ("Warrior")) {
+			animat.Play ("AttackMelee1");
+		} else if (this.gameObject.name.Contains ("Archer")) {
+			animat.Play ("AttackRange1");
+		}
+	}
 }
 
 
